@@ -1,0 +1,68 @@
+# SITE CONFIGURATION
+title: Luhao's blog # your site title
+author: luhao-yang # You :P
+description: > # Meta description of Homepage
+  This is Luhao's personal blog website.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://luhao-yang.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# SEO PLUGIN
+social:
+  name: Luhao Yang
+  links:
+    - https://twitter.com/luhaoyang123
+    - https://www.facebook.com/yangluhao123
+    - https://www.linkedin.com/in/luhaoyang
+    - https://github.com/luhao-yang
+
+
+# THEME SETTINGS
+navigation: # Navigation links
+  - {name: 'Home', link: '/'}
+  - {name: 'About', link: '/about'}
+  - {name: 'Contact', link: '/contact'}
+
+tagline: >
+  "Technology is notorious for engrossing people so much that they don't always focus on balance and enjoy life at the same time." - Paul Allen
+
+hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+
+email: yangluhao123@google.com # email for form submission
+
+twitter_username: luhaoyang123 # replace with your_twitter_username or comment to remove link from footer
+github_username:  luhao-yang # replace with your_github_username or comment to remove link from footer
+instagram_username: yangluhao123 # replace with your_instagram_username or comment to remove link from footer
+
+disqus:
+  shortname: luhao # to enable comments replace with your_disqus_shortname
+
+# google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
+
+service_worker: false
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge # or pygments or null
+# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
+
+include: ['_pages']
+permalink: /:title/
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
