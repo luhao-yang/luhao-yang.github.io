@@ -3,7 +3,7 @@ layout: post
 title: Redux-Observable
 featured-img: sleek
 mathjax: true
-tags: [hehe]
+categories: [redux, javascript]
 ---
 
 
