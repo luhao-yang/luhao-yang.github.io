@@ -2,7 +2,8 @@
 layout: post
 title: "Migrate from Wordpress to Jekyll"
 featured-img: w2j
-categories: [general]
+categories: 
+- General
 ---
 
 For the past year, I have been using Wordpress to host my personal blogs which deployed on VPS from linode.com. The reason I did this is to enjoy the full control of a website while surfing the internet withour any restrictions from China GFW by setting up a Shadowsocks server on it.
