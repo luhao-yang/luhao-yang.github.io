@@ -20,14 +20,14 @@ social:
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
+# - {name: 'Contact', link: '/contact'}
 
 tagline: >
   "Technology is notorious for engrossing people so much that they don't always focus on balance and enjoy life at the same time." - Paul Allen
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
-email: yangluhao123@google.com # email for form submission
+email: yangluhao123@gmail.com # email for form submission
 
 twitter_username: luhaoyang123 # replace with your_twitter_username or comment to remove link from footer
 github_username:  luhao-yang # replace with your_github_username or comment to remove link from footer
