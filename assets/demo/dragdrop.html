@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>drap and drop</title>
+
+  <style>
+	.dropzone {
+		width: 300px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.dragzone {
+		width: 300px;
+		text-align: center;
+	}
+
+	.dragzone ul{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.dragzone ul > li{
+		list-style-type: none;
+		border-style: solid;
+		border-width: 1px;
+		border-color: black;
+		margin-top: 10px;
+	}
+  
+  </style>
+
+
+</head>
+
+<body>
+    <div id="app">
+
+        <div class="dropzone" ondrop="drop_handler(event)" ondragover="dragover_handler(event);">
+			<h3>drop zone</h3>
+			<p>
+				the element must have both ondragover and ondrop event handler attributes
+			</p>
+		</div>
+		
+		<div class="dropzone" ondrop="drop_handler(event)" ondragover="dragover_handler_move(event);">
+			<h3>drop zone(only accept move)</h3>
+		</div>
+
+        <div class="dragzone">
+            <ul>
+                <li draggable="true" ondragstart="dragstart_handler(event,1);">copy effect</li>
+                <li draggable="true" ondragstart="dragstart_handler(event,2);">move effect</li>
+                <li draggable="true" ondragstart="dragstart_handler(event,3);">link effect</li>
+            </ul>
+		</div>
+		
+		<div class="dropzone" ondrop="drop_handler_file(event)" ondragover="dragover_handler_file(event);">
+				<h3>drop zone for file</h3>
+			</div>
+
+    </div>
+
+    <script>
+        function dragstart_handler(ev,effect) {
+            var effectAllowed = ''
+            switch(effect) {
+				case 1: 
+					effectAllowed = 'copy'
+					break;
+				case 2: 
+					effectAllowed = 'move'
+					break;
+            	case 3:
+					effectAllowed = 'link'
+					break;
+			}
+			ev.dataTransfer.effectAllowed = effectAllowed
+			console.log(ev)
+  			ev.dataTransfer.setData("text/html", ev.target.innerText);
+		}
+		
+		function dragover_handler(ev) {
+			ev.preventDefault();
+		}
+
+		function dragover_handler_move(ev) {
+			ev.preventDefault();
+			// Set the dropEffect to move
+			ev.dataTransfer.dropEffect = "move"
+		}
+		
+		function drop_handler(ev) {
+			ev.preventDefault();
+			// Get the id of the target and add the moved element to the target's DOM
+			var data = ev.dataTransfer.getData("text/html");
+			var elementP = document.createElement("p")
+			elementP.innerHTML = data
+			ev.target.appendChild(elementP);
+		}
+
+		function dragover_handler_file(ev) {
+			ev.stopPropagation()
+			ev.preventDefault();
+			ev.dataTransfer.dropEffect = "all"
+		}
+
+		function drop_handler_file(ev) {
+			ev.stopPropagation()
+			ev.preventDefault();
+			// Get the id of the target and add the moved element to the target's DOM
+			console.log('drop_handler_file',ev)
+			var dt = ev.dataTransfer;
+			var files = dt.files;
+
+			var count = files.length;
+			console.log("File Count: " + count + "\n");
+
+			for (var i = 0; i < files.length; i++) {
+			console.log(" File " + i + ":\n(" + (typeof files[i]) + ") : <" + files[i] + " > " +
+				files[i].name + " " + files[i].size + "\n");
+			}
+		}
+      
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Middleware test</title>
+</head>
+
+<body>
+
+    <div>
+        <input type="text" id="msg" />
+        <button onclick="submit()">submit</button>
+        <button onclick="apply()">applyMiddleware</button>
+        <p id="result"></p>
+    </div>
+
+<div style="margin-top:30px;background-color:#dadada">
+    <pre>
+
+        var input = document.querySelector('#msg')
+        var p = document.querySelector('#result')
+        p.innerHTML = 'input some characters then submit'
+
+        function submit() { store.dispatch(input.value) }
+
+        function apply() { 
+            store = applyMiddleware(store, proc1, proc2)
+            p.innerHTML = 'applied! try again'
+         }
+
+
+        function createStore() {
+            return {
+                dispatch: str => p.innerHTML = 'dispatch: ' + str
+            }
+        }
+
+        var store = createStore()
+
+        const proc1 = next => str => Promise.resolve('proc1(' + str + ')').then(value => next(value))
+
+        const proc2 = next => str => new Promise((resolve, reject) => {
+            p.innerHTML = 'requesting... wait 2 seconds'
+            setTimeout(() => {
+                if (str.indexOf('yang') != -1) {
+                    resolve('proc2(' + str + ')')
+                } else {
+                    reject('proc2_fault(' + str + ')')
+                }
+            }, 2000)
+        }).then(value => next(value)).catch(reason => next(reason))
+
+
+        function applyMiddleware(store, ...procs) {
+            var handlers = procs.slice().reverse()
+            var dispatch = str => handlers.reduce((result, handler) => handler(result), store.dispatch)(str)
+            return Object.assign({}, store, {
+                dispatch
+            })
+        }
+
+</pre>
+</div>
+
+    <script>
+        var input = document.querySelector('#msg')
+        var p = document.querySelector('#result')
+        p.innerHTML = 'input some characters then submit'
+
+        function submit() { store.dispatch(input.value) }
+
+        function apply() { 
+            store = applyMiddleware(store, proc1, proc2)
+            p.innerHTML = 'applied! try again'
+         }
+
+
+        function createStore() {
+            return {
+                dispatch: str => p.innerHTML = 'dispatch: ' + str
+            }
+        }
+
+        var store = createStore()
+
+        const proc1 = next => str => Promise.resolve('proc1(' + str + ')').then(value => next(value))
+
+        const proc2 = next => str => new Promise((resolve, reject) => {
+            p.innerHTML = 'requesting... wait 2 seconds'
+            setTimeout(() => {
+                if (str.indexOf('yang') != -1) {
+                    resolve('proc2(' + str + ')')
+                } else {
+                    reject('proc2_fault(' + str + ')')
+                }
+            }, 2000)
+        }).then(value => next(value)).catch(reason => next(reason))
+
+
+        function applyMiddleware(store, ...procs) {
+            var handlers = procs.slice().reverse()
+            var dispatch = str => handlers.reduce((result, handler) => handler(result), store.dispatch)(str)
+            return Object.assign({}, store, {
+                dispatch
+            })
+        }
+
+        
+    </script>
+</body>
+
+</html>

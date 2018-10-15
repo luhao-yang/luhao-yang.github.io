@@ -28,7 +28,7 @@ You can get [SVG.js](http://svgjs.com/) by clicking the link.
 
 Let&#8217;s take a look at the code. It&#8217;s very simple and reader-friendly. I know I just handle the simplest situation that only rectangles engaged in. I am planning to support any circular or polygonal shapes in the future, and I have come up with the algorithm of calculating complicated intersection of various shapes, which I think is the most important part in this game! Let&#8217;s talk about it later. Now we just consider the simple situation and understand the mechanism of this protoype.
 
-Play the demo here [overlapping maze](http://flywithfan.net/demo/overlappingmaze/)
+Play the demo here [overlapping maze](/assets/demo/overlappingmaze/)
 
 #### What I do:
 

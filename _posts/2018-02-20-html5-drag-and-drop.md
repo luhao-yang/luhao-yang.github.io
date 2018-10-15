@@ -77,7 +77,7 @@ At the end of a drag operation, the dragend event fires at the source element &#
 
 * * *
 
-I made an experiment here, you can see my [demo](http://flywithfan.net/demo/dragdrop.html)
+I made an experiment here, you can see my [demo](/assets/demo/dragdrop.html)
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-html">    &lt;div id="app"&gt;
 

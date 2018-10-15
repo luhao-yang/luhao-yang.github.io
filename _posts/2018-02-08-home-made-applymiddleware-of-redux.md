@@ -13,7 +13,7 @@ tags:
   - es6
   - javascript
 ---
-After reading the **Async Actions** and **Middleware** chapters of redux tutorial, I implemented my own middleware thunk, you can see this [demo](http://www.flywithfan.net/demo/middleware.html).
+After reading the **Async Actions** and **Middleware** chapters of redux tutorial, I implemented my own middleware thunk, you can see this [demo](/assets/demo/middleware.html).
 
 In the example of offcial guide, it is considering the synchronous case so I just want to produce a **applyMiddleware** which could be applid both to sync and async function. I know they have already done that, but I just want to practice and make it my own way.
 
