@@ -1,0 +1,26 @@
+{
+  "name": "luhao-yang.github.io",
+  "version": "1.0.0",
+  "description": "luhao's blog system based on Jekyll",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luhao-yang/luhao-yang.github.io.git"
+  },
+  "author": "luhao yang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luhao-yang/luhao-yang.github.io/issues"
+  },
+  "homepage": "https://github.com/luhao-yang/luhao-yang.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-responsive": "^2.11.0"
+  }
+}
