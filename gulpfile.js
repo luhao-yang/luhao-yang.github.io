@@ -6,7 +6,6 @@ const gulp = require('gulp');
 
 // Image Generation
 const responsive = require('gulp-responsive');
-const $ = require('gulp-load-plugins')();
 const rename = require('gulp-rename');
 const imagemin = require('gulp-imagemin');
 
@@ -14,7 +13,7 @@ const imagemin = require('gulp-imagemin');
 // Images
 gulp.task('img', function() {
   return gulp.src('_img/posts/*.{png,jpg}')
-    .pipe($.responsive({
+    .pipe(responsive({
       // For all the images in the folder
       '*': [{
         width: 230,
@@ -44,9 +43,8 @@ gulp.task('img', function() {
         width: 1920,
       }],
     }, {
-      quality: 70,
       progressive: true,
-      withMetadata: false,
+      withMetadata: true,
       errorOnEnlargement: false,
     }))
     .pipe(imagemin())

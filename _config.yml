@@ -19,8 +19,8 @@ social:
 # THEME SETTINGS
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
+  - {name: 'Category', link: '/categories'}
   - {name: 'About', link: '/about'}
-# - {name: 'Contact', link: '/contact'}
 
 tagline: >
   "Technology is notorious for engrossing people so much that they don't always focus on balance and enjoy life at the same time." - Paul Allen
@@ -43,6 +43,7 @@ service_worker: false
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge # or pygments or null
+
 # theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
 exclude:
   - README.md

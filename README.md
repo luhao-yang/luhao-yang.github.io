@@ -37,7 +37,11 @@ bundle exec jekyll serve
 
 
 ### generating images:
+Because this project is relying on some old dependencies so an older version of node and npm need to be used. Testing passed with node14 and npm6.
 ```bash
+nvm install 14.21.2
+nvm use 14.21.2
+
 npm install
 
 glup img
