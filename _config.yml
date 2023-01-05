@@ -64,5 +64,5 @@ compress_html:
   clippings: all
 
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+  - github-pages
+  # - jemoji
