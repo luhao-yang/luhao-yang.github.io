@@ -2,6 +2,8 @@ const { dest, series, src } = require('gulp');
 const through2 = require('through2');
 const imagemin = require('gulp-imagemin');
 const sharp = require('sharp');
+const Vinyl = require('vinyl');
+const fs = require('fs');
 
 
 function clean(cb) {
@@ -17,8 +19,13 @@ function resize() {
     sharp(file.contents)
     .resize(320, 240)
     .toFile(outputFile, (err, info) => { 
-      console.log(info)
-      cb(null, file);
+      const vinylFile = new Vinyl({
+        cwd: file.cwd,
+        base: file.base,
+        path: outputFile,
+        contents: fs.readFileSync(outputFile)
+      });
+      cb(null, vinylFile)
      });
     
   })
@@ -26,7 +33,7 @@ function resize() {
 
 function printInfo() {
   return through2.obj(function(file, _, cb) {
-    console.log(file.path)
+    console.log(file.path, file.contents)
      cb(null, file);
   })
 }

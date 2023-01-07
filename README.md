@@ -35,16 +35,17 @@ bundle exec jekyll serve
 
 ## Some other things
 
+rules of thumb in this project:
+
+all the cover images and only them must be located in `assets/img/posts`
+because the gulp will run against this folder to generate different size images.
+
+all the images used in the article should be uploaded to `assets/img/uploads` folder. 
+
 
 ### generating images:
-Because this project is relying on some old dependencies so an older version of node and npm need to be used. Testing passed with node14 and npm6.
 ```bash
-nvm install 14.21.2
-nvm use 14.21.2
-
-npm install
-
-glup img
+//tbc
 ```
 
 ### maintainence
