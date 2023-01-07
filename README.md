@@ -44,8 +44,10 @@ all the images used in the article should be uploaded to `assets/img/uploads` fo
 
 
 ### generating images:
+this step is necessary if you use any featured image in the blog
 ```bash
-//tbc
+npm i
+npx gulp
 ```
 
 ### maintainence
