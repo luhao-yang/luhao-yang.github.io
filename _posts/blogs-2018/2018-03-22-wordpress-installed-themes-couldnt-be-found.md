@@ -8,7 +8,7 @@ layout: post
 #guid: http://flywithfan.net/?p=208
 #permalink: /misc/208/
 categories:
-  - General
+  - Tech
 tags:
   - wordpress
 ---

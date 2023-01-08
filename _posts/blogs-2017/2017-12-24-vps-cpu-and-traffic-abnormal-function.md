@@ -8,7 +8,7 @@ layout: post
 #guid: http://flywithfan.net/?p=96
 #permalink: /misc/96/
 categories:
-  - General
+  - Tech
 ---
 Recently I found my VPS worked extremely unusual theses days &#8217;cause I continuously received serval alert emails from LINODE TEAM. They are like these:
 

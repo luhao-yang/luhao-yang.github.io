@@ -11,7 +11,6 @@ categories:
   - JavaScript
 tags:
   - es6
-  - javascript
 ---
 Before ES2015, we get used to using apply and call, now let&#8217;s take a look at bind method
 

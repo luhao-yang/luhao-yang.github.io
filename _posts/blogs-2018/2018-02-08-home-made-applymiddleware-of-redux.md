@@ -10,7 +10,6 @@ layout: post
 categories:
   - React
 tags:
-  - es6
   - javascript
 ---
 After reading the **Async Actions** and **Middleware** chapters of redux tutorial, I implemented my own middleware thunk, you can see this [demo](/assets/demo/middleware.html).

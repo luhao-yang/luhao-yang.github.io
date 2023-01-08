@@ -7,7 +7,7 @@ layout: post
 #guid: http://flywithfan.net/?p=234
 #permalink: /misc/234/
 categories:
-  - General
+  - Tech
 ---
 # Title1
 

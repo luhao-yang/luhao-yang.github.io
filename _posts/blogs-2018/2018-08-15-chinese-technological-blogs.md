@@ -3,7 +3,7 @@ layout: post
 title: "Chinese Technological Blogs"
 featured-img: shane-rounce-205187
 categories: 
-- General
+- Tech
 ---
 
 

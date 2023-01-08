@@ -10,7 +10,7 @@ layout: post
 categories:
   - Web
 tags:
-  - javascript
+  - frontend
 ---
 The HTML `<script>` element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.
 

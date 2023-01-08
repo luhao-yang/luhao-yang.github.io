@@ -3,14 +3,14 @@ id: 3
 title: Common security settings of system
 #date: 2018-01-01T17:34:32+00:00
 author: Luhao
-summary: 'Since I have been hacked by someone, I started to  pay more attention on the security settings of system.'
+summary: 'Since I have been hacked by someone, I started to pay more attention on the security settings of system.'
 layout: post
 #guid: http://45.33.40.211/?p=3
 #permalink: /misc/3/
 categories:
-  - General
+  - Tech
 tags:
-  - english
+  - security
 ---
 Since I have been hacked by someone, I started to pay more attention on the security settings of system.
   

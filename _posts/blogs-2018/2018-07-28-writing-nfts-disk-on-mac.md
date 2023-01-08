@@ -8,7 +8,7 @@ layout: post
 #guid: http://flywithfan.net/?p=331
 #permalink: /misc/331/
 categories:
-  - General
+  - Tech
 ---
 Normally, you can only process reading instead of writing on the pluggable disk of NTFS format when you insert it into your mac. To write on the disk, you should have third-party software installed, such as Paragon NTFS or Tuxera NTFS. But both of them are not free, I found a method which is amazing, because it&#8217;s hidden on your mac!
 

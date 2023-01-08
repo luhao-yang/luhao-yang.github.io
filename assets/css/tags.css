@@ -1,0 +1,56 @@
+#tag-container {
+  font-weight: bold;
+}
+
+#tag-names {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 10px 10px;
+}
+
+.tag-button {
+  padding: 4px 10px;
+  color: #fff;
+  font-size: 80%;
+  text-decoration: none;
+  border: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.yellow {
+  background-color: goldenrod;
+}
+
+.blue {
+  background-color: royalblue;
+}
+
+.green {
+  background-color: seagreen;
+}
+
+.red {
+  background-color: #df2d4f;
+}
+
+.pink {
+  background-color: HotPink;
+}
+
+.sienna {
+  background-color: Sienna;
+}
+
+.rebeccaPurple {
+  background-color: RebeccaPurple;
+}
+
+
+.tag-details {
+  margin: 0 2px;
+}

@@ -10,9 +10,7 @@ layout: post
 categories:
   - Web
 tags:
-  - css
-  - html
-  - javascript
+  - frontend
 ---
 ## Content
 

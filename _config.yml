@@ -20,6 +20,7 @@ social:
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'Category', link: '/categories'}
+  - {name: 'Tag', link: '/tags'}
   - {name: 'About', link: '/about'}
 
 tagline: >

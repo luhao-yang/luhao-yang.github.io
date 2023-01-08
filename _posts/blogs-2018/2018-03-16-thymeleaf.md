@@ -11,8 +11,7 @@ categories:
   - Java
   - Web
 tags:
-  - html
-  - spring
+  - template
 ---
 > Thymeleaf is a modern server-side Java template engine for both web and standalone environments. 
 

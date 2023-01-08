@@ -8,10 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=202
 #permalink: /misc/202/
 categories:
-  - General
+  - Tech
 tags:
-  - css
-  - html
+  - frontend
 ---
 Code Guide by @mdo
 
