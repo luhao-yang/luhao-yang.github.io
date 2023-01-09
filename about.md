@@ -1,26 +1,14 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
 I am Luhao Yang. This is my story.
 
-I grew up in Chengdu, China. There is a saying that Chengdu is a city where you don't want to leave once you came. 
+I grew up in Chengdu, China. There is a saying that Chengdu is a city where you don't want to leave once you came. 
 
-Here is a brief introduction to my hometown. Chengdu city, as the capital of Sichuan province,  with about 15 million inhabitants, has now become one of the most important economic, financial, commercial, cultural, transportation, and communication centers in Western China.
-
-![](/assets/img/uploads/2018/Chengdu-Map.jpg)
-
-Hometown of Giant Panda  
-![](/assets/img/uploads/2018/panda.jpg)
-
-Famous food Chengdu Hotpot  
-![](/assets/img/uploads/2018/hotpot.jpeg)
-
-Sichuan Opera 'Bian Lian' (川剧变脸)
-![](/assets/img/uploads/2018/bianlian.jpg)  
-check this [video](https://www.youtube.com/watch?v=k8eRtIwpZHU), if you are interested.
+Here is a brief introduction to my hometown. Chengdu city, as the capital of Sichuan province,  with about 20 million inhabitants(up until 2022), has now become one of the most important economic, financial, commercial, cultural, transportation, and communication centers in Western China.
 
 Although I was born in an average family, my parents tried their best to offer me a good education. I spent 18 years living in Chengdu, then I went to Beijing for college. After having this splendid seven years of college life, I came back to my hometown and managed to find a satisfying job.
 
@@ -30,18 +18,8 @@ Migration is definitely a significant thing in one's life. Especially when we ha
 
 This isn't wrong at all. I hope I would end up with this result as well but in my own way. There are dozens of reasons for us to leave for New Zealand, and also dozens of reasons to stay in China. It is too hard to compare the pros and cons of both countries. Besides we don't know what the future is like,  nobody does. But in a word, we just prefer the lifestyle of kiwi, dreaming about the easy but fantastic life there. 
 
-We live in Wellington now, as we planned before. There still requires a lot of efforts to settle down along with much uncertainty, but we have a strong faith in our heart to reach this goal.
+We lived in Wellington from 2018 to 2022.  And since then we moved up to Auckland because it's much warmer and convinent for us where we can find a lot of food and restaurants in Asian communities. We are enjoying the life here in Auckland. As a father of two, I am so proud of my girls and feel so happy accompnying them to grow up.
 
-Now it's time to provide an outline of my professional background.
+The early intention of this blog is to build my own portfolio and catch some eyes of recruiters so I can get some job oppurtunities from them when I first came to New Zealand. But now, I don't need to serve that purpose any more.
 
-I am a fullstack developer with 4-5 years of experience in building various scalable systems and responsive websites. My skills include HTML5, CSS3, JavaScript, React, Redux, SASS/LESS, styled-components, Jest, Mocha/Chai, NPM, Webpack as well as mobile application development using React Native. Also, I am experienced with Node.js, Express, Koa, GraphQL, MongoDB, MySQL. On top of that, I have a strong passion for technology and always want to learn new and cool techs, hoping that I could keep improving my skills and pushing myself forward.
-
-
-
-[Email](mailto:yangluhao123@gmail.com): yangluhao123@gmail.com  
-[LinkedIn](https://www.linkedin.com/in/luhaoyang/)
-
-
-
-![Wanaka airplane project](/assets/img/uploads/2018/1200.jpg)
-<div style="font-size:10px;text-align:center;">Photo taken in Wanaka</div>
+You may notice that I stopped writing the blogs during **2019-2022** because I became lazy after I didn't need to find myself a job at that time. However, I am wanting to continue updating blogs and just write down what I learnt no matter of what subject. This is purely self-learning driven instead of serving any other purposes.

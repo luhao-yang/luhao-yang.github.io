@@ -10,8 +10,7 @@ url: "https://luhao-yang.github.io/" # the base hostname & protocol for your sit
 social:
   name: Luhao Yang
   links:
-    - https://twitter.com/luhaoyang123
-    - https://www.facebook.com/yangluhao123
+    - https://twitter.com/yangluhao123
     - https://www.linkedin.com/in/luhaoyang
     - https://github.com/luhao-yang
 
@@ -30,9 +29,9 @@ hero_img: uploads/sleek_lg.jpg # Main background image: use the path from /asset
 
 email: yangluhao123@gmail.com # email for form submission
 
-twitter_username: luhaoyang123 # replace with your_twitter_username or comment to remove link from footer
+twitter_username: yangluhao123 # replace with your_twitter_username or comment to remove link from footer
 github_username:  luhao-yang # replace with your_github_username or comment to remove link from footer
-instagram_username: yangluhao123 # replace with your_instagram_username or comment to remove link from footer
+instagram_username: luhao.yang # replace with your_instagram_username or comment to remove link from footer
 
 disqus:
   shortname: luhao # to enable comments replace with your_disqus_shortname
