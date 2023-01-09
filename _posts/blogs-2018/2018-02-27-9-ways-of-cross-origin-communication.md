@@ -33,7 +33,7 @@ it limits these actions below:
 
 Exceptions: Here are some examples of resources which may be embedded cross-origin.
 
-<pre class="line-numbers prism-highlight" data-start="1"><code class="language-null">- Javascript with &lt;script src="..."&gt;&lt;/script&gt;.
+<pre class="line-numbers prism-highlight" data-start="1"><code class="language-null">- JavaScript with &lt;script src="..."&gt;&lt;/script&gt;.
 
 - CSS with &lt;link rel="stylesheet" href="..."&gt;
 

@@ -4,28 +4,35 @@ title: Categories
 permalink: /categories/
 ---
 
-<div class="accordion" id="accordion-container">
-{% for category in site.categories %}
-  {% capture category_name %}{{ category | first }}{% endcapture %}
-  {% capture category_name_for_id %}{{ category | first | slugify | downcase  }}{% endcapture %}
+<link rel="stylesheet" href="/assets/css/categories.css">
+<script type="text/javascript" src="/assets/js/common.js"></script>
 
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="{{ category_name_for_id }}-heading">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#{{ category_name_for_id }}-body" aria-expanded="true" aria-controls="{{ category_name_for_id }}-body">
-        {{ category_name }}
-      </button>
-    </h2>
-    <!-- Omit the data-bs-parent attribute on each .accordion-collapse to make accordion items stay open when another item is opened. -->
-    <!-- data-bs-parent="#accordion-container" -->
-    <div id="{{ category_name_for_id }}-body" class="accordion-collapse collapse show" aria-labelledby="{{ category_name_for_id }}-heading" >
-      <div class="accordion-body">
-        {% for post in site.categories[category_name] %}
-          <article class="archive-item">
-            <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-          </article>
-        {% endfor %}
-      </div>
+<div id="category-container" class="container text-left">
+  <div class="row">
+    <div id="category-names" class="col col-3">
+      {% for category in site.categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        {% capture category_name_for_id %}{{ category | first | slugify | downcase  }}{% endcapture %}
+        <div class="category-button"><a onclick="showCategoryList('{{ category_name_for_id }}')">{{ category_name }}</a>
+        </div>
+        
+      {% endfor %}
+    </div>
+
+    <div class="col col-9">
+      {% for category in site.categories %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        {% capture category_name_for_id %}{{ category | first | slugify | downcase  }}{% endcapture %}
+        <div id="{{ category_name_for_id }}-list" class="category-details" style="display:none">
+          {% for post in site.categories[category_name] %}
+            <article class="archive-item">
+              <h6><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h6>
+            </article>
+          {% endfor %}
+        </div>
+
+      {% endfor %}
     </div>
   </div>
-{% endfor %}
 </div>
+

@@ -4,7 +4,9 @@ title: "Render Props vs. HOC"
 featured-img: emile-perron-190221
 categories: [react, javascript]
 categories:
-  - React
+  - JavaScript
+tags:
+  - javascript
 ---
 
 When "Render Props" hits me, I was a little shocked because I couldn't recall any memories about it. So I checked it soon when I came back. As thought, this feature is pretty new.

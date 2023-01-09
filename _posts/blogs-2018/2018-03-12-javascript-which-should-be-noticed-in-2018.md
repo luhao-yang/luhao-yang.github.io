@@ -1,6 +1,6 @@
 ---
 id: 206
-title: Javascript which should be noticed in 2018
+title: JavaScript which should be noticed in 2018
 #date: 2018-03-12T20:35:26+00:00
 author: Luhao
 summary: I read it on a chinese site, and translated into english. Take a glance at them

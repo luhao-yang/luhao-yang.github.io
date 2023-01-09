@@ -14,7 +14,7 @@ permalink: /tags/
   {% assign colors = "yellow, blue, green, red, pink, sienna, rebeccaPurple " | split: ", "  %}
   {% capture tag_name %}{{ tag | first }}{% endcapture %}
 
-    <a class="tag-button {{ colors[index] }}" onclick="showList('{{ tag_name | slugify}}')">{{ tag_name | upcase }}</a>
+    <a class="tag-button {{ colors[index] }}" onclick="showTagList('{{ tag_name | slugify}}')">{{ tag_name | upcase }}</a>
 
 {% endfor %}
 

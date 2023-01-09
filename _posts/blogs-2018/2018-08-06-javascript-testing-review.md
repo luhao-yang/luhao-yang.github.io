@@ -1,6 +1,6 @@
 ---
 id: 375
-title: Javascript Testing Review
+title: JavaScript Testing Review
 #date: 2018-08-06T11:33:38+00:00
 author: Luhao
 layout: post

@@ -1,6 +1,6 @@
 ---
 id: 162
-title: Thoughts on Javascript
+title: Thoughts on JavaScript
 #date: 2018-01-05T18:05:03+00:00
 author: Luhao
 summary: Some thoughts about javascript and goals set for myself...

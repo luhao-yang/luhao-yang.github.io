@@ -8,7 +8,7 @@ layout: post
 #guid: http://flywithfan.net/?p=202
 #permalink: /misc/202/
 categories:
-  - Tech
+  - Architecture
 tags:
   - frontend
 ---

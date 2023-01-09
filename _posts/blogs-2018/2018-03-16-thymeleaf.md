@@ -8,7 +8,6 @@ layout: post
 #guid: http://flywithfan.net/?p=207
 #permalink: /web/207/
 categories:
-  - Java
   - Web
 tags:
   - template

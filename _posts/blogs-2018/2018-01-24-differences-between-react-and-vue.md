@@ -8,13 +8,13 @@ layout: post
 #guid: http://flywithfan.net/?p=173
 #permalink: /javascript/173/
 categories:
-  - React
+  - JavaScript
 tags:
   - javascript
 ---
 After learning React and Vue, I summarize some similarities and differences between them. To gain a better understanding of both two MVVM frameworks, I write these down to remind myself later and share them to you.
 
-React has a very mature ecosystem and start eariler compared to Vue, and it has already hold the place of leading Javascript framework. Since its popularity in the world-wild usage, you can&#8217;t go wrong with react, just learn it!
+React has a very mature ecosystem and start eariler compared to Vue, and it has already hold the place of leading JavaScript framework. Since its popularity in the world-wild usage, you can&#8217;t go wrong with react, just learn it!
 
 Vue is the most fast-growing framework especially in China, probably because of limited the license of react. BTW, the writer of Vue is a Chinese named 尤雨溪, who has majored in Design & Technology in the first place and become a tech-savvy through his own effort. So inspirational, isn&#8217;t it? He has joined into chinese e-commerce giant Alibaba, to build Weex and expand vue ecosystem and community.
 
@@ -44,7 +44,7 @@ Here we can see the features including goals of each other from their slogans.
 
 Both of them have render function, technically JSX and the Vue template are going to be compiled into pure javascript code, like **_CreateElement_** method.
 
-React using JSX constitute the idea that everything is Javascript, while Vue using HTML based template syntax is bit of more conventional. I don&#8217;t have preference on any of them, so far both are ok for me.
+React using JSX constitute the idea that everything is JavaScript, while Vue using HTML based template syntax is bit of more conventional. I don&#8217;t have preference on any of them, so far both are ok for me.
 
 If you are migrating from React, you can install the [babel](https://github.com/vuejs/babel-plugin-transform-vue-jsx) plugin to write JSX instead of HTML template in Vue, but not vice versa.
 

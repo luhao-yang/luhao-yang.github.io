@@ -7,7 +7,7 @@ layout: post
 #guid: http://flywithfan.net/?p=268
 #permalink: /misc/268/
 categories:
-  - Tech
+  - Database
 tags:
   - mysql
 ---

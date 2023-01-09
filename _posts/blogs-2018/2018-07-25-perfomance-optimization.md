@@ -1,6 +1,6 @@
 ---
 id: 329
-title: Perfomance Optimization
+title: Perfomance Optimization for Frontend
 #date: 2018-07-25T07:52:25+00:00
 author: Luhao
 summary: Some techniques of optimising performance in web development
@@ -45,7 +45,7 @@ tags:
   * no CSS expressions
   * no Filter of IE
 
-## Javascript
+## JavaScript
 
   * puting script at the bottom
   * loading javascript, css from other files

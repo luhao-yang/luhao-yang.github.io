@@ -8,7 +8,7 @@ layout: post
 #guid: http://flywithfan.net/?p=171
 #permalink: /web/171/
 categories:
-  - Web
+  - Methodology
 ---
 Mind map is becoming more and more popular these days. It helps us sort our ideas and inspirations, when we look at it, we will get a bigger and clearer picture of something. So I am gonna use this powerful tool to make a mind map of what should a full-stack programmer learn from my own perspective, or just say, what I expect myself to learn.
 

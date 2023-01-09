@@ -8,7 +8,7 @@ layout: post
 #guid: http://flywithfan.net/?p=175
 #permalink: /javascript/175/
 categories:
-  - React
+  - JavaScript
 tags:
   - javascript
 ---

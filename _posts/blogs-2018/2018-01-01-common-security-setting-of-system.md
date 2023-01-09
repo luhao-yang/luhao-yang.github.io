@@ -8,7 +8,7 @@ layout: post
 #guid: http://45.33.40.211/?p=3
 #permalink: /misc/3/
 categories:
-  - Tech
+  - Security
 tags:
   - security
 ---
