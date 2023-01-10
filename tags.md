@@ -20,7 +20,7 @@ permalink: /tags/
 
   {% if sorted_tags_array.size < 2 %}
     {% continue %}
-  {% endif%}
+  {% endif %}
 
   {% assign sorted_array_length = sorted_tags_array.size | plus: 0 %}
   {% assign sorted_array_length_minusone = sorted_array_length | minus: 1 %}
@@ -39,10 +39,17 @@ permalink: /tags/
         {% assign orginal_value_at_index = sorted_tags_array[index] %}
         {% assign orginal_value_at_index_addone = sorted_tags_array[index_addone] %}
 
-        {% assign sorted_tags_array_string = sorted_tags_array | join: "," | replace: orginal_value_at_index, "_faketag_"  %}
-        {% assign sorted_tags_array_string = sorted_tags_array_string | replace: orginal_value_at_index_addone, orginal_value_at_index %}
-        {% assign sorted_tags_array_string = sorted_tags_array_string | replace: "_faketag_", orginal_value_at_index_addone %}
-        {% assign sorted_tags_array = sorted_tags_array_string | split: "," %}
+        {% assign newArray = '' | split: '' %}
+        {% for c in sorted_tags_array %}
+          {% if forloop.index0 == index %}
+            {% assign newArray = newArray | push: orginal_value_at_index_addone %}
+          {% elsif forloop.index0 == index_addone %}
+            {% assign newArray = newArray | push: orginal_value_at_index %}
+          {% else %}
+            {% assign newArray = newArray | push: c  %}
+          {% endif %}
+        {% endfor %}
+        {% assign sorted_tags_array = newArray %}
        
       {% else%}
         {% break %}
