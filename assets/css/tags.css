@@ -27,7 +27,7 @@ a:hover {
 }
 
 .yellow {
-  background-color: goldenrod;
+  background-color: Gold;
 }
 
 .blue {
@@ -50,8 +50,16 @@ a:hover {
   background-color: Sienna;
 }
 
-.rebeccaPurple {
-  background-color: RebeccaPurple;
+.mediumPurple {
+  background-color: MediumPurple;
+}
+
+.orange{
+  background-color: Orange;
+}
+
+.gray {
+  background-color: Gray;
 }
 
 .tag-details {
