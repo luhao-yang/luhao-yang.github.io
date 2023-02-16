@@ -2,7 +2,7 @@
 layout: post
 title: "A recap of JavaScript module format"
 summary: "JavaScript has so many module formats due to historical reasons and that really confuses people for a long time"
-featured-img: npm
+featured-img: js-cover
 categories: 
   - Frontend
 tags:
@@ -20,10 +20,10 @@ Here is just a recap of JavaScript module formats about what they are and what t
   
 ```javascript
 
-
+// import a module
 const package = require('module-name')
 
-
+// export a module
 exports.a = 1
 exports.b = 2
 
@@ -36,7 +36,7 @@ module.exports = {
 
 ```
 
-`.cjs`
+Node suggests js file extension to indicate which module the source file is using by naming `.cjs` or `.mjs`. Alternative, you can specify `type: module` in `package.json`.
 
 # ES Module
 
@@ -45,7 +45,7 @@ module.exports = {
 - Static analyzing 
 - Tree shakeable
 
-`.mjs` helps identify it's ES module script. `<script type="module">` in the browser suggests too as well as `type: module` for nodejs.
+`.mjs` helps identify it's ES module script. `<script type="module">` in the browser. However it's not fully supported across all the browsers.
 
 ```javascript
 import defaultExport from "module-name";
@@ -151,7 +151,7 @@ An IIFE (Immediately Invoked Function Expression) is a JavaScript function that 
 
 >SystemJS is a hookable, standards-based module loader.
 
-You only want to use SystemJs when you would like to use in-browser JavaScript modules.
+**You only want to use SystemJs when you would like to use in-browser JavaScript modules.**
 
 - [importmap](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap)
 - load multiple modules with just one request
@@ -163,7 +163,7 @@ here is the introduction video of SystemJs https://www.youtube.com/watch?v=AmdKF
 
 # Ship ESM & CJS in one Package 
 
-in your `package.json`
+Just do as follows in your `package.json`
 ```
 {
   "name": "my-cool-package",
@@ -176,8 +176,7 @@ in your `package.json`
 }
 ```
 
+Some references:
 https://antfu.me/posts/publish-esm-and-cjs
-
 https://www.sensedeep.com/blog/posts/2021/how-to-create-single-source-npm-module.html
-
 https://medium.com/swlh/npm-new-package-json-exports-field-1a7d1f489ccf
