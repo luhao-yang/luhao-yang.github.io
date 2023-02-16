@@ -89,12 +89,12 @@ function printInfo() {
 function processImages() {
   console.log("processImages");
   return (
-    src("assets/img/posts/*.{png,jpg}")
+    src("assets/img/posts_cover/original/*.{png,jpg}")
       .pipe(filter(isOriginalImage))
       .pipe(resize())
       .pipe(imagemin())
       .pipe(printInfo())
-      .pipe(dest("assets/img/posts/"))
+      .pipe(dest("assets/img/posts_cover/generated"))
   );
 }
 

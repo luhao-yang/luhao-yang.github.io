@@ -23,9 +23,9 @@ navigation: # Navigation links
   - {name: 'About', link: '/about'}
 
 tagline: >
-  "Technology is notorious for engrossing people so much that they don't always focus on balance and enjoy life at the same time." - Paul Allen
+  "The best way to predict the future is to invent it." - Alan Kay
 
-hero_img: uploads/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+hero_img: uploads/sleek_lg.jpg # Main background image:
 
 email: yangluhao123@gmail.com # email for form submission
 

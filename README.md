@@ -37,7 +37,7 @@ bundle exec jekyll serve
 
 rules of thumb in this project:
 
-all the cover images and only them must be located in `assets/img/posts`
+all the cover images and only them must be located in `assets/img/posts_cover`
 because the gulp will run against this folder to generate different size images.
 
 all the images used in the article should be uploaded to `assets/img/uploads` folder. 
