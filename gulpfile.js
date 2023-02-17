@@ -62,22 +62,21 @@ function resize() {
       allPromises.push(clone.toBuffer());
     });
 
-    Promise.all(allPromises).then((values) => {
-      values.forEach((buffer, index) => {
-        const vinylFile = new Vinyl({
-          cwd: file.cwd,
-          base: file.base,
-          path: filenames[index],
-          contents: buffer,
+    Promise.all(allPromises)
+      .then((values) => {
+        values.forEach((buffer, index) => {
+          const vinylFile = new Vinyl({
+            cwd: file.cwd,
+            base: file.base,
+            path: filenames[index],
+            contents: buffer,
+          });
+          that.push(vinylFile);
         });
-        that.push(vinylFile);
-      });
 
-      cb(null);
-
-    }).catch(console.error);
-
-    
+        cb(null);
+      })
+      .catch(console.error);
   });
 }
 
@@ -90,14 +89,12 @@ function printInfo() {
 
 function processImages() {
   console.log("processImages");
-  return (
-    src("assets/img/posts_cover/original/*.{png,jpg}")
-      .pipe(filter(isOriginalImage))
-      .pipe(resize())
-      .pipe(imagemin())
-      .pipe(printInfo())
-      .pipe(dest("assets/img/posts_cover/generated"))
-  );
+  return src("assets/img/posts_cover/original/*.{png,jpg}")
+    .pipe(filter(isOriginalImage))
+    .pipe(resize())
+    .pipe(imagemin())
+    .pipe(printInfo())
+    .pipe(dest("assets/img/posts_cover/generated"));
 }
 
 exports.processImages = processImages;

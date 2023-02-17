@@ -18,9 +18,8 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
+    "prettier": "2.8.4",
+    "sharp": "^0.31.3",
     "through2": "^4.0.2"
-  },
-  "dependencies": {
-    "sharp": "^0.28.3"
   }
 }
