@@ -10,6 +10,8 @@ layout: post
 image: /wp-content/uploads/2018/07/lowerhutt-150x150.jpg
 categories:
   - Life
+tags:
+  - life
 ---
 I haven&#8217;t update my blog for a couple of months because I was too busy. There were too many things to handle in the past couple of months, such as resigning and handing over work, applying work visa, moving and sorting things, etc.
 

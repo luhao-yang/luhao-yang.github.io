@@ -9,6 +9,8 @@ layout: post
 #permalink: /misc/327/
 categories:
   - Methodology
+categories:
+  - agile
 ---
 ## Agile
 

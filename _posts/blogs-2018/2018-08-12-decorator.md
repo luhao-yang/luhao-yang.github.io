@@ -7,9 +7,9 @@ layout: post
 #guid: http://flywithfan.net/?p=381
 #permalink: /javascript/381/
 categories:
-  - JavaScript
+  - Frontend
 tags:
-  - es6
+  - javascript
 ---
 Decorator is the new feature of ES7! Well, it isn&#8217;t really a standard feature now. It&#8217;s in Stage 2, but, thanks to babel, we can use it immidiately.
 

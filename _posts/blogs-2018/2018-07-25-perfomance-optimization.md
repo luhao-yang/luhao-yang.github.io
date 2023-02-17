@@ -8,9 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=329
 #permalink: /web/329/
 categories:
-  - Web
+  - Frontend
 tags:
-  - frontend
+  - design
 ---
 ## Content
 

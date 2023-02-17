@@ -4,9 +4,9 @@ title: Redux-Observable
 featured-img: sleek
 mathjax: true
 categories: 
-- JavaScript
+- Design
 tags:
-- javascript
+- pattern
 ---
 
 

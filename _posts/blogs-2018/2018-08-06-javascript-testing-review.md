@@ -8,7 +8,7 @@ layout: post
 #permalink: /javascript/375/
 image: /wp-content/uploads/2018/08/1_xZURv-fdC3H8Lv7p6vd1Qw-150x150.jpeg
 categories:
-  - JavaScript
+  - Testing
 tags:
   - javascript
   - testing

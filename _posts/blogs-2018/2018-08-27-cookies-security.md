@@ -10,6 +10,7 @@ categories:
   - Security
 tags:
   - security
+  - browser
 ---
 Honestly, I was curious about the &#8220;cookie&#8221; promopt all the time but I didn&#8217;t really care about it until I came across the [The California Internet Privacy Bill](https://www.pillsburylaw.com/en/news-and-insights/california-internet-privacy-bill-signed-by-governor.html), then I knew why I often saw these on all kinds of website, but strangely, I have never seen this thing on chinese websites. Maybe we don&#8217;t respect the privacy of others, haha. But it really enlightened me on the thoughts about the privacy and the concerns about the security of cookies.
 

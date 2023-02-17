@@ -7,9 +7,9 @@ layout: post
 #guid: http://flywithfan.net/?p=366
 #permalink: /javascript/366/
 categories:
-  - JavaScript
+  - Frontend
 tags:
-  - es6
+  - javascript
 ---
 I didn&#8217;t notice that the back quote&#8217;s meaning in the styled-components until today! I have been using styled-components for a long time, and I thought it was Babel somehow to transform the code segment. Today, I finally read that article that explained the magic behind styled-components when I was going through the document online.
 
