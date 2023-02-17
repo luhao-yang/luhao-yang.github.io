@@ -12,6 +12,7 @@ categories:
 tags:
   - browser
 ---
+
 For most of the time(), we just use console.log or console.error() to output informartion in order to help us debug.
 
 Now let&#8217;s learn more advanced skill.
@@ -55,7 +56,7 @@ console.log("%cColorful CSS","background: rgba(252,234,187,1);background: -moz-l
 Errors and warnings have the same effect as regular logs. The only difference is error()and warn()the style of striking.
 
 **assertion**
-  
+
 console.assert()The method may only its first parameter to falseconditionally display error strings (its second argument) time.
 
 I personally seldomly use this.
@@ -120,7 +121,7 @@ login(users[0]);
 **Compare similar data objects**
 
 Use the table () method to view structured data and compare data objects.
-  
+
 Using the table()method, you can easily view objects and arrays containing similar data. When called, this method will extract the object&#8217;s properties and create a header. The row data is from the attribute value of each index.
 
 In its most basic form, you only need an array of multiple objects with the same properties, and the table()command performs the remaining operations:
@@ -132,9 +133,9 @@ console.table([[1,2,3], [2,3,4]]);
 ![image](https://developers.google.com/web/tools/chrome-devtools/console/images/table-arrays.png)
 
 **Abnormal and error handling**
-  
+
 Use console.trace() print the current JavaScript call stack.
 
-* * *
+---
 
 That&#8217;s it. See more details, visit [google official doc](https://developers.google.com/web/tools/chrome-devtools/console/)

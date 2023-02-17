@@ -12,13 +12,14 @@ categories:
 tags:
   - javascript
 ---
+
 I found an article which comprehensively introduced some tricky ways of communication cross origin, and I think it&#8217;s very useful so I would translate it to you.
 
 If you read chinese, you can visit the source
-  
+
 [前端常见跨域解决方案（全）](https://segmentfault.com/a/1190000011145364)
 
-* * *
+---
 
 ### SOP policy
 
@@ -26,10 +27,10 @@ The same-origin policy restricts how a document or script loaded from one origin
 
 it limits these actions below:
 
-  1. Cookie, LocalStorage, IndexDB are inaccessible</p> 
-  2. DOM, Js Object can not be acquired
+1. Cookie, LocalStorage, IndexDB are inaccessible</p>
+2. DOM, Js Object can not be acquired
 
-  3. Ajax is limited
+3. Ajax is limited
 
 Exceptions: Here are some examples of resources which may be embedded cross-origin.
 
@@ -76,15 +77,15 @@ http://www.domain2.com/b.js        different domain                        not a
 
 ## Cross origin solutions
 
-  1. jsonp
-  2. document.domain + iframe
-  3. location.hash + iframe
-  4. window.name + iframe
-  5. postMessage
-  6. CORS
-  7. nginx reverse proxy
-  8. nodejs middleware
-  9. WebSocket
+1. jsonp
+2. document.domain + iframe
+3. location.hash + iframe
+4. window.name + iframe
+5. postMessage
+6. CORS
+7. nginx reverse proxy
+8. nodejs middleware
+9. WebSocket
 
 ### 1. JSONP
 
@@ -155,7 +156,7 @@ attention: this solution is only suitable for &#8216;same main domain, different
 
 principle: using js set document.domain being the same value
 
-  1. parent window: (http://www.domain.com/a.html)
+1. parent window: (http://www.domain.com/a.html)
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-html">&lt;iframe id="iframe" src="http://child.domain.com/b.html"&gt;&lt;/iframe&gt;
 &lt;script&gt;
@@ -164,7 +165,7 @@ principle: using js set document.domain being the same value
 &lt;/script&gt;
 </code></pre>
 
-  1. sub window: (http://child.domain.com/b.html)
+1. sub window: (http://child.domain.com/b.html)
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-html">&lt;script&gt;
     document.domain = 'domain.com';
@@ -277,7 +278,7 @@ note: via switching the src attribute of iframe to same domain, data stored in w
 
 ### 5. postMessage
 
-> The window.postMessage() method safely enables cross-origin communication between Window objects; e.g., between a page and a pop-up that it spawned, or between a page and an iframe embedded within it. 
+> The window.postMessage() method safely enables cross-origin communication between Window objects; e.g., between a page and a pop-up that it spawned, or between a page and an iframe embedded within it.
 
 more details about postMessage, see [here](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage)
 
@@ -407,14 +408,14 @@ console.log('Server is running at port 8080...');
 
 ### 7. Nginx
 
-  1. nginx configurations on iconfont
+1. nginx configurations on iconfont
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-null">location / {
   add_header Access-Control-Allow-Origin *;
 }
 </code></pre>
 
-  1. nginx reverse proxy
+1. nginx reverse proxy
 
 note: SOP is the policy of browser, not HTTP.
 

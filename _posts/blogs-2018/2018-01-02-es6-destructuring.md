@@ -1,6 +1,6 @@
 ---
 id: 157
-title: 'ES6 &#8211; Destructuring'
+title: "ES6 &#8211; Destructuring"
 #date: 2018-01-02T22:59:45+00:00
 author: Luhao
 summary: The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
@@ -12,6 +12,7 @@ categories:
 tags:
   - javascript
 ---
+
 # Destructuring
 
 The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
@@ -46,7 +47,7 @@ console.log(a); // 1
 console.log(b); // [2, 3]
 </code></pre>
 
-* * *
+---
 
 ## Object destructuring
 
@@ -65,10 +66,10 @@ A variable can be assigned its value with destructuring separate from its declar
 </code></pre>
 
 > {a, b} = {a: 1, b: 2} is not valid stand-alone syntax, as the {a, b} on the left-hand side is considered a block and not an object literal.
-> 
-> However, ({a, b} = {a: 1, b: 2}) is valid, as is var {a, b} = {a: 1, b: 2} 
+>
+> However, ({a, b} = {a: 1, b: 2}) is valid, as is var {a, b} = {a: 1, b: 2}
 
-* * *
+---
 
 #### PRACTICAL APPLICATION:
 
@@ -102,7 +103,7 @@ drawES5Chart({
 });
 </code></pre>
 
-* * *
+---
 
 ### Nested object and array destructuring
 

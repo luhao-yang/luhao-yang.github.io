@@ -12,17 +12,18 @@ categories:
 tags:
   - network
 ---
+
 #### **SS  Client：**
 
-根据不同的平台Shadowsocks客户端分成几个版本，不过都大同小异，最主要的就是把代理服务器的IP地址、端口、密码和加密方式配置好就行了。
+根据不同的平台 Shadowsocks 客户端分成几个版本，不过都大同小异，最主要的就是把代理服务器的 IP 地址、端口、密码和加密方式配置好就行了。
 
-可以看看这个网站，从这上面下载客户端    <https://global.ishadowx.net/>
+可以看看这个网站，从这上面下载客户端     <https://global.ishadowx.net/>
 
 &nbsp;<figure id="attachment_35" style="width: 525px" class="wp-caption aligncenter">
 
-<img class="wp-image-35 size-large" src="http://flywithfan.net/wp-content/uploads/2017/12/WechatIMG3-1-1024x455.jpeg" alt="shadowsocks client versions" width="525" height="233" /><figcaption class="wp-caption-text">shadowsocks各平台客户端</figcaption></figure> 
+<img class="wp-image-35 size-large" src="http://flywithfan.net/wp-content/uploads/2017/12/WechatIMG3-1-1024x455.jpeg" alt="shadowsocks client versions" width="525" height="233" /><figcaption class="wp-caption-text">shadowsocks 各平台客户端</figcaption></figure>
 
-Mac版本配置界面就长界面，其他版本也差不多
+Mac 版本配置界面就长界面，其他版本也差不多
 
 <img class="alignnone size-medium wp-image-36" src="http://flywithfan.net/wp-content/uploads/2017/12/WechatIMG4-1-300x187.jpeg" alt="" width="300" height="187" />
 
@@ -32,7 +33,7 @@ Mac版本配置界面就长界面，其他版本也差不多
 
 #### **SS  Server：**
 
-我推荐购买VPS，自己搭服务端，ss服务端版本有四种，我推荐用Go版本的，一键安装 go 版的 shadowsocks
+我推荐购买 VPS，自己搭服务端，ss 服务端版本有四种，我推荐用 Go 版本的，一键安装 go 版的 shadowsocks
 
 **获取并一键安装：**
 
@@ -48,35 +49,34 @@ chmod +x shadowsocks-go.sh<br />
     Your Password:your_password
     Your Local Port:1080
     Your Encryption Method:aes-256-cfb
-    
+
     Welcome to visit:http://teddysun.com/392.html
     Enjoy it!
-    
 
-* * *
+---
 
 安装完成后即已后台启动 shadowsocks-go ，运行：
-  
+
 `/etc/init.d/shadowsocks-go status`
-  
+
 可以查看 shadowsocks-go 进程是否已经启动。
-  
+
 本脚本安装完成后，已将 shadowsocks-go 加入开机自启动。
 
 **使用命令：**
-  
+
 启动：`/etc/init.d/shadowsocks-go start`
-  
+
 停止：`/etc/init.d/shadowsocks-go stop`
-  
+
 重启：`/etc/init.d/shadowsocks-go restart`
-  
+
 状态：`/etc/init.d/shadowsocks-go status`
 
 **卸载方法：**
-  
+
 使用 root 用户登录，运行以下命令：
-  
+
 `./shadowsocks-go.sh uninstall`
 
 &nbsp;

@@ -11,6 +11,7 @@ categories:
 tags:
   - javascript
 ---
+
 Decorator is the new feature of ES7! Well, it isn&#8217;t really a standard feature now. It&#8217;s in Stage 2, but, thanks to babel, we can use it immidiately.
 
 Let&#8217;s see a very simple example:
@@ -29,10 +30,10 @@ MyTestableClass.isTestable // true
 
 Its purpose seems like what the Decorator Pattern does, right?
 
-> A decorator is the name used for a software design pattern. Decorators dynamically alter the functionality of a function, method, or class without having to directly use subclasses or change the source code of the function being decorated. 
+> A decorator is the name used for a software design pattern. Decorators dynamically alter the functionality of a function, method, or class without having to directly use subclasses or change the source code of the function being decorated.
 
 Decorator signature:
-  
+
 `function(target, property, descriptor){}`
 
 decorating method of class

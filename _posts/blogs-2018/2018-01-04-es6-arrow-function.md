@@ -1,9 +1,9 @@
 ---
 id: 161
-title: 'ES6 &#8211; Arrow Function'
+title: "ES6 &#8211; Arrow Function"
 #date: 2018-01-04T22:25:04+00:00
 author: Luhao
-summary: 'An arrow function expression has a shorter syntax than a function expression and does not have its own this, arguments, super, or new.target. '
+summary: "An arrow function expression has a shorter syntax than a function expression and does not have its own this, arguments, super, or new.target. "
 layout: post
 #guid: http://flywithfan.net/?p=161
 #permalink: /javascript/161/
@@ -12,9 +12,10 @@ categories:
 tags:
   - javascript
 ---
+
 An arrow function expression has a shorter syntax than a function expression and does not have its own this, arguments, super, or new.target. These function expressions are best suited for non-method functions, and they cannot be used as constructors.
 
-> The new.target property lets you detect whether a function or constructor was called using the new operator. In constructors and functions instantiated with the new operator, new.target returns a reference to the constructor or function. In normal function calls, new.target is undefined. 
+> The new.target property lets you detect whether a function or constructor was called using the new operator. In constructors and functions instantiated with the new operator, new.target returns a reference to the constructor or function. In normal function calls, new.target is undefined.
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-javascript">function Foo() {
   if (!new.target) throw 'Foo() must be called with new';
@@ -118,9 +119,9 @@ foo(1); // 11
 
 **_ALSO_**
 
-  * Arrow functions cannot be used as constructors and will throw an error when used with new.
-  * Arrow functions do not have a prototype property.
-  * The yield keyword may not be used in an arrow function&#8217;s body (except when permitted within functions further nested within it). As a consequence, arrow functions cannot be used as generators.
+- Arrow functions cannot be used as constructors and will throw an error when used with new.
+- Arrow functions do not have a prototype property.
+- The yield keyword may not be used in an arrow function&#8217;s body (except when permitted within functions further nested within it). As a consequence, arrow functions cannot be used as generators.
 
 ### Function body
 
@@ -150,8 +151,8 @@ var func = () =&gt; ({foo: 1});
 
 </code></pre>
 
-* * *
+---
 
 LINKS:
-  
+
 [Arrow Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)

@@ -11,6 +11,7 @@ categories:
 tags:
   - markdown
 ---
+
 # Title1
 
 ## Title2
@@ -25,57 +26,57 @@ tags:
 
 You can use one # all the way up to ###### six for different heading sizes.
 
-* * *
+---
 
 This is normal text looks like.
-  
+
 _This text will be italic_
-  
+
 _This will also be italic_
 
 **This text will be bold**
-  
+
 **This will also be bold**
 
 _You **can** combine them_
 
-* * *
+---
 
 Sometimes you want numbered lists:
 
-  1. One
-  2. Two
-  3. Three
+1. One
+2. Two
+3. Three
 
 Sometimes you want bullet points:
 
-  * Start a line with a star
-  * Profit!
+- Start a line with a star
+- Profit!
 
 Alternatively,
 
-  * Dashes work just as well
-  * And if you have sub points, put two spaces before the dash or star: 
-      * Like this
-      * And this
+- Dashes work just as well
+- And if you have sub points, put two spaces before the dash or star:
+  - Like this
+  - And this
 
-* * *
+---
 
 http://github.com &#8211; automatic!
-  
+
 [GitHub](http://github.com)
 
 > This is quote. blablabla
-    
-> blablabla 
 
-* * *
+> blablabla
+
+---
 
 If you want to embed images, this is how you do it:
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-* * *
+---
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-java">package com.domain.demo;
 
@@ -93,14 +94,14 @@ public class DemoApplication {
 
 </code></pre>
 
-* * *
+---
 
-  * <input style="margin-right:5px" type="checkbox" class="task-list-item-checkbox" checked disabled />@mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-  * <input style="margin-right:5px" type="checkbox" class="task-list-item-checkbox" checked disabled />list syntax required (any unordered or ordered list supported)
-  * <input style="margin-right:5px" type="checkbox" class="task-list-item-checkbox" checked disabled />this is a complete item
-  * <input style="margin-right:5px" type="checkbox" class="task-list-item-checkbox" disabled />this is an incomplete item
+- <input style="margin-right:5px" type="checkbox" class="task-list-item-checkbox" checked disabled />@mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- <input style="margin-right:5px" type="checkbox" class="task-list-item-checkbox" checked disabled />list syntax required (any unordered or ordered list supported)
+- <input style="margin-right:5px" type="checkbox" class="task-list-item-checkbox" checked disabled />this is a complete item
+- <input style="margin-right:5px" type="checkbox" class="task-list-item-checkbox" disabled />this is an incomplete item
 
-* * *
+---
 
 | First Header                | Second Header                |
 | --------------------------- | ---------------------------- |
@@ -109,7 +110,7 @@ public class DemoApplication {
 
 **insert html**
 
-</p> 
+</p>
 
 <pre>(A)  The client requests authorization from the resource owner.  The
         authorization request can be made directly to the resource owner
@@ -129,8 +130,8 @@ public class DemoApplication {
 
     </pre>
 
-</p> 
+</p>
 
-* * *
+---
 
 reference: [markdown](https://guides.github.com/features/mastering-markdown/)

@@ -3,7 +3,7 @@ id: 176
 title: DOM Event and its Model
 #date: 2018-01-30T17:36:10+00:00
 author: Luhao
-summary: 'Today I wanna go over the Event related things, just basic knowledgeand do some experiments, '
+summary: "Today I wanna go over the Event related things, just basic knowledgeand do some experiments, "
 layout: post
 #guid: http://flywithfan.net/?p=176
 #permalink: /web/176/
@@ -12,6 +12,7 @@ categories:
 tags:
   - browser
 ---
+
 ## Event
 
 Today I wanna go over the Event related things, just basic knowledge, no big deal.
@@ -25,23 +26,23 @@ Element, document, and window are the most common event targets, but other objec
 Many event targets (including elements, documents, and windows) also support setting event handlers via on&#8230; properties and attributes.
 
 Methods:
-  
+
 &#8211; EventTarget.addEventListener()
-  
+
 Register an event handler of a specific event type on the EventTarget.
-  
+
 &#8211; EventTarget.removeEventListener()
-  
+
 Removes an event listener from the EventTarget.
-  
+
 &#8211; EventTarget.dispatchEvent()
-  
+
 Dispatch an event to this EventTarget.
 
 ### Event dispatch and DOM event flow
 
 This section gives a brief overview of the event dispatch mechanism and describes how events propagate through the DOM tree. Applications can dispatch event objects using the dispatchEvent() method, and the event object will propagatae through the DOM tree as determined by the DOM event flow.
-  
+
 ![Event dispatch and DOM event flow](https://www.w3.org/TR/DOM-Level-3-Events/images/eventflow.svg)
 
 Event objects are dispatched to an event target. But before dispatch can begin, the event object’s propagation path must first be determined.
@@ -50,10 +51,10 @@ The propagation path is an ordered list of current event targets through which t
 
 Once the propagation path has been determined, the event object passes through one or more event phases. There are three event phases: capture phase, target phase and bubble phase. Event objects complete these phases as described below. A phase will be skipped if it is not supported, or if the event object’s propagation has been stopped. For example, if the bubbles attribute is set to false, the bubble phase will be skipped, and if stopPropagation() has been called prior to the dispatch, all phases will be skipped.
 
-  * **The capture phase**: The event object propagates through the target’s ancestors from the Window to the target’s parent. This phase is also known as the capturing phase.</p> 
-  * **The target phase**: The event object arrives at the event object’s event target. This phase is also known as the at-target phase. If the event type indicates that the event doesn’t bubble, then the event object will halt after completion of this phase.
+- **The capture phase**: The event object propagates through the target’s ancestors from the Window to the target’s parent. This phase is also known as the capturing phase.</p>
+- **The target phase**: The event object arrives at the event object’s event target. This phase is also known as the at-target phase. If the event type indicates that the event doesn’t bubble, then the event object will halt after completion of this phase.
 
-  * **The bubble phase**: The event object propagates through the target’s ancestors in reverse order, starting with the target’s parent and ending with the Window. This phase is also known as the bubbling phase.
+- **The bubble phase**: The event object propagates through the target’s ancestors in reverse order, starting with the target’s parent and ending with the Window. This phase is also known as the bubbling phase.
 
 ### listener
 
@@ -135,7 +136,7 @@ Events are typically dispatched by the implementation as a result of a user acti
 
 For instance:
 
-The default action associated with the click event on  <input type="checkbox" />elements toggles the checked IDL attribute value of that element. If the click event’s default action is cancelled, then the value is restored to its former state.
+The default action associated with the click event on <input type="checkbox" />elements toggles the checked IDL attribute value of that element. If the click event’s default action is cancelled, then the value is restored to its former state.
 
 When an event is canceled, then the conditional default actions associated with the event is skipped (or as mentioned above, if the default actions are carried out before the dispatch, their effect is undone). Whether an event object is cancelable is indicated by the cancelable attribute. Calling preventDefault() stops all related default actions of an event object. The defaultPrevented attribute indicates whether an event has already been canceled (e.g., by a prior event listener). If the DOM application itself initiated the dispatch, then the return value of the dispatchEvent() method indicates whether the event object was cancelled.
 
@@ -149,7 +150,7 @@ FOR MORE INFORMATION:
 
 various kinds of Event types and other related event knowledges such as composition event types, please visit W3C [DOM-Level-3-Events](https://www.w3.org/TR/DOM-Level-3-Events/)
 
-* * *
+---
 
 Here I wanna do some experiments to emphasize some understanding of events.
 

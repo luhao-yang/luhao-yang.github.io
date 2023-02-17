@@ -4,8 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-Formspree](https://formspree.io/) to handle form submissions. 
-
+Formspree](https://formspree.io/) to handle form submissions.
 
 ### Example Formspree contact form with validation and reCaptcha
 

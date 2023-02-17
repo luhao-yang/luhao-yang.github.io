@@ -2,7 +2,7 @@
 layout: post
 title: "Using bash $() in npm command"
 featured-img: bash-npm
-categories: 
+categories:
   - Misc
 tags:
   - bash
@@ -25,6 +25,7 @@ Suppose we have a demand to use `cross-env` to set environment variables `hash` 
 }
 
 ```
+
 **This actually works in Linux but not in Windows(powershell/cmd/MinGW)!**
 
 if you run `npm test` What you'll likely get is this error:
@@ -48,7 +49,7 @@ I spent a lot of time to search online but no luck at all. I tried to add double
 
 ```
 {
-  "scripts": {  
+  "scripts": {
       "test": "cross-env hash=$(\"git rev-parse --short HEAD\") && jest",
   },
 }
@@ -58,7 +59,6 @@ I spent a lot of time to search online but no luck at all. I tried to add double
 # Takeaway
 
 Finally I figured a way out after spending a long time, so I want to share and also remind myself in case I forgot.
-
 
 ```
 {
@@ -71,7 +71,4 @@ Finally I figured a way out after spending a long time, so I want to share and a
 
 This works both in Windows and Linux! You are welcome.
 
-
 BTW, also want to share a bash cheat sheet where you can learn a lot of bash tricks https://devhints.io/bash
-
-

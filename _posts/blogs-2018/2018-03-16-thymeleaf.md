@@ -12,7 +12,8 @@ categories:
 tags:
   - template
 ---
-> Thymeleaf is a modern server-side Java template engine for both web and standalone environments. 
+
+> Thymeleaf is a modern server-side Java template engine for both web and standalone environments.
 
 Thymeleaf&#8217;s main goal is to bring elegant **natural** templates to your development workflow — HTML that can be **correctly** displayed in browsers and also work as static prototypes, allowing for stronger collaboration in development teams. As you can see, thymeleaf using dialect to render pages would not be analyzed by browsers because browsers don&#8217;t recognize those tags.
 

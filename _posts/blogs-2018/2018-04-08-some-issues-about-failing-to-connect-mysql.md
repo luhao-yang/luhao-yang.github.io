@@ -11,6 +11,7 @@ categories:
 tags:
   - mysql
 ---
+
 Today when I tried to use mysql, I encountered this problem first:
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-sh">ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
@@ -25,7 +26,7 @@ but I got this output:
 </code></pre>
 
 I attempted to update or reinstall mysql via Homebrew, but it didn&#8217;t work either.
-  
+
 And I tried many methods from others&#8217; experience, yet still not working well.
 
 Practice proves that the best way is to check the log yourself, analyzing your own specific problem.
@@ -49,11 +50,11 @@ Then initializing sucess, please remeber the password
 ![](/assets/img/uploads/2018/1.png)
 
 To have launchd start mysql now and restart at login:
-   
+
 `brew services start mysql`
-  
+
 Or, if you don&#8217;t want/need a background service you can just run:
-   
+
 `mysql.server start`
 
 Finally, after starting the mysql service, I was able to connect as root, thank god&#8230;

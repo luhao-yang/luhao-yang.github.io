@@ -12,6 +12,7 @@ categories:
 tags:
   - javascript
 ---
+
 Here are some useful resources of Vue and React.
 
 To be coninued&#8230;
@@ -21,31 +22,31 @@ To be coninued&#8230;
 [Vue Official](https://github.com/vuejs/vue)
 
 **Strongly recommended:**
-  
+
 [Awesome Vue.js](https://github.com/vuejs/awesome-vue),
 
-> A curated list of awesome things related to Vue.js 
+> A curated list of awesome things related to Vue.js
 
 If you read chinese:
-  
-[Vue相关开源项目库汇总](https://github.com/opendigg/awesome-github-vue)
+
+[Vue 相关开源项目库汇总](https://github.com/opendigg/awesome-github-vue)
 
 UI libraries, both developed by Chinese team, but well supportd in English:
-  
+
 [Element-UI](http://element.eleme.io/)
-  
+
 [iview](https://www.iviewui.com/)
 
 ### React
 
 Official recommended:
-  
+
 [Create React App](https://github.com/facebook/create-react-app)
 
 [Awesome React](https://github.com/enaqx/awesome-react)
 
 UI libraries:
-  
+
 [Material-UI](https://material.io/guidelines/material-design/introduction.html)
 
 [ElementUI-React](https://eleme.github.io/element-react/#/zh-CN/quick-start)
@@ -56,4 +57,4 @@ UI libraries:
 
 [Bootstrap](http://www.bootcss.com/)
 
-[Bootstrap中文网及相关资源](http://www.bootcss.com/)
+[Bootstrap 中文网及相关资源](http://www.bootcss.com/)

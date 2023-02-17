@@ -3,7 +3,8 @@
   "version": "2.0.0",
   "description": "luhao's blog system based on Jekyll",
   "scripts": {
-    "start": "bundle exec jekyll serve"
+    "start": "bundle exec jekyll serve",
+    "formatmd": "prettier --write _posts/**/*.md"
   },
   "repository": {
     "type": "git",

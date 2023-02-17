@@ -12,26 +12,27 @@ categories:
 tags:
   - machine learning
 ---
+
 ## What is ML
 
 Machine learning is a subset of artificial intelligence in the field of computer science. Here I have some explanations about ML.
 
-> Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention. 
+> Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention.
 
 And
 
-> Machine learning is a data analytics technique that teaches computers to do what comes naturally to humans and animals: learn from experience. Machine learning algorithms use computational methods to “learn” information directly from data without relying on a predetermined equation as a model. The algorithms adaptively improve their performance as the number of samples available for learning increases. 
+> Machine learning is a data analytics technique that teaches computers to do what comes naturally to humans and animals: learn from experience. Machine learning algorithms use computational methods to “learn” information directly from data without relying on a predetermined equation as a model. The algorithms adaptively improve their performance as the number of samples available for learning increases.
 
 ## Importance
 
 With the rise in big data, machine learning has become a key technique for solving problems in areas, such as:
 
-  * Automotive, aerospace, and manufacturing
-  * Computational biology, for tumor detection, drug discovery, and DNA sequencing
-  * Image processing and computer vision, for face recognition, motion detection, and object detection
-  * Natural language processing, for voice recognition applications 
-  * Computational finance, for credit scoring and algorithmic trading
-  * Energy production, for price and load forecasting
+- Automotive, aerospace, and manufacturing
+- Computational biology, for tumor detection, drug discovery, and DNA sequencing
+- Image processing and computer vision, for face recognition, motion detection, and object detection
+- Natural language processing, for voice recognition applications
+- Computational finance, for credit scoring and algorithmic trading
+- Energy production, for price and load forecasting
 
 Machine learning algorithms find natural patterns in data that generate insight and help you make better decisions and predictions. They are used every day to make critical decisions in medical diagnosis, stock trading, energy load forecasting, and more. For example, media sites rely on machine learning to sift through millions of options to give you song or movie recommendations. Retailers use it to gain insight into their customers’ purchasing behavior.
 
@@ -39,12 +40,12 @@ Machine learning algorithms find natural patterns in data that generate insight 
 
 Most industries working with large amounts of data have recognized the value of machine learning technology. By gleaning insights from this data – often in real time – organizations are able to work more efficiently or gain an advantage over competitors.
 
-  * **Financial services**: to identify important insights in data, and prevent fraud
-  * **Government**: detect fraud and minimize identity theft
-  * **Health care**: improved diagnoses and treatment
-  * **Marketing and sales**: recommend items, personalize a shopping experience
-  * **Oil and gas**: finding new energy sources, analyzing minerals in the ground, predicting refinery sensor failure. 
-  * **Transportation**: identify patterns and trends, making routes more efficient and predicting potential problems
+- **Financial services**: to identify important insights in data, and prevent fraud
+- **Government**: detect fraud and minimize identity theft
+- **Health care**: improved diagnoses and treatment
+- **Marketing and sales**: recommend items, personalize a shopping experience
+- **Oil and gas**: finding new energy sources, analyzing minerals in the ground, predicting refinery sensor failure.
+- **Transportation**: identify patterns and trends, making routes more efficient and predicting potential problems
 
 ## How it works
 
@@ -82,7 +83,7 @@ Clustering is the most common unsupervised learning technique. It is used for ex
 
 **Deep learning** combines advances in computing power and special types of neural networks to learn complicated patterns in large amounts of data. Deep learning techniques are currently state of the art for identifying objects in images and words in sounds. Researchers are now looking to apply these successes in pattern recognition to more complex tasks such as automatic language translation, medical diagnoses and numerous other important social and business problems.
 
-* * *
+---
 
-  1. [What is ML?](https://www.mathworks.com/discovery/machine-learning.html)
-  2. [ML-What it is and why it matters](https://www.sas.com/en_us/insights/analytics/machine-learning.html)
+1. [What is ML?](https://www.mathworks.com/discovery/machine-learning.html)
+2. [ML-What it is and why it matters](https://www.sas.com/en_us/insights/analytics/machine-learning.html)

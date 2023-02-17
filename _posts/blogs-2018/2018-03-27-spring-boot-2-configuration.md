@@ -1,6 +1,6 @@
 ---
 id: 241
-title: 'Spring Boot (2) &#8211; Configuration'
+title: "Spring Boot (2) &#8211; Configuration"
 #date: 2018-03-27T17:57:11+00:00
 author: Luhao
 layout: post
@@ -11,6 +11,7 @@ categories:
 tags:
   - spring
 ---
+
 At last episode, we have a peek at the spring boot project. We knew the spring boot philosophy &#8220;convention over configuration&#8221;, but we still need to grasp the spring application configuration, remember some important and common configs, in case of changing the default value at some time.
 
 First of all, application.properties is located in src/main/java/resources by default.
@@ -93,7 +94,7 @@ Open url http://localhost:8080/info, displays:
 ## Configuring Random Values
 
 The RandomValuePropertySource is useful for injecting random values.
-  
+
 It can produce integers, longs, uuids, or strings, as shown in the following example:
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-null">my.secret=${random.value}
@@ -121,17 +122,17 @@ you can disable them by using `SpringApplication.setAddCommandLineProperties(fal
 
 SpringApplication loads properties from application.properties files in the following locations and adds them to the Spring Environment:
 
-  1. A /config subdirectory of the current directory
-  2. The current directory
-  3. A classpath /config package
-  4. The classpath root
+1. A /config subdirectory of the current directory
+2. The current directory
+3. A classpath /config package
+4. The classpath root
 
 ![](/assets/img/uploads/2018/Screen-Shot-2018-03-27-at-16.22.59.png)
 
 Hence, the property in application.properties under **config/** would override those in resources folder.
 
 For example, `net.flywithfan.helloMsg=I am number one in sequence.` would lead to an output **_I am number one in sequence._** instead of
-  
+
 **_Hello, I am from China._** with url http://localhost:8080/hello
 
 ## Profile-specific Properties
@@ -140,8 +141,8 @@ In addition to application.properties files, profile-specific properties can als
 
 i.e
 
-  * **application-dev.properties** for development config
-  * **application-pro.properties** for production config
+- **application-dev.properties** for development config
+- **application-pro.properties** for production config
 
 To get there, we should specify the spring.profiles.active property like this:
 
@@ -158,7 +159,7 @@ Alternatively, it can come with the boot parameters as well.
 
 YAML is a superset of JSON and, as such, is a convenient format for specifying hierarchical configuration data.
 
-> If you use “Starters”, SnakeYAML is automatically provided by spring-boot-starter. 
+> If you use “Starters”, SnakeYAML is automatically provided by spring-boot-starter.
 
 application.yaml
 
@@ -226,5 +227,5 @@ The @Value annotation is a core container feature, and it does not provide the s
 # Reference
 
 1.[Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle)
-  
+
 2.[Common application properties](https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html)

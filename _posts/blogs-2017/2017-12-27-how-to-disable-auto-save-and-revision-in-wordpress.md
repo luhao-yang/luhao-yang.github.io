@@ -13,6 +13,7 @@ categories:
 tags:
   - wordpress
 ---
+
 Sometimes the auto-save and revison function of WordPress really annoyed me, because they make a lot &#8220;trash&#8221; in database and result in incontinuous post ID.
 
 I found a way to disable them, just write down before I forgot.
@@ -35,7 +36,7 @@ remove_action('pre_post_update','wp_save_post_revision' );
 </code></pre>
 
 3.Edit wp-admin/includes/post.php
-  
+
 **_LOGIC: if there is a autodraft in database, then use it otherwise create a new one_**
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-php">// before
@@ -61,7 +62,7 @@ if ( $create_in_db ) {
 </code></pre>
 
 Further clean in database:
-  
+
 login your phpmyadmin, find you wordpress databse, go to posts table, then input this sql and execute:
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-sql">DELETE FROM wp_posts where id in (
@@ -71,7 +72,7 @@ login your phpmyadmin, find you wordpress databse, go to posts table, then input
 
 PS: tmp is just a temp table.
 
-> In MySQL, you cannot modify a table and select from the same table in a subquery. This applies to statements such as DELETE, INSERT, REPLACE, UPDATE, and (because subqueries can be used in the SET clause) LOAD DATA INFILE. 
+> In MySQL, you cannot modify a table and select from the same table in a subquery. This applies to statements such as DELETE, INSERT, REPLACE, UPDATE, and (because subqueries can be used in the SET clause) LOAD DATA INFILE.
 
 So this is **WRONG**, just remind
 

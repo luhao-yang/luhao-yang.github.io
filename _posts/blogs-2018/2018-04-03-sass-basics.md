@@ -12,28 +12,29 @@ categories:
 tags:
   - css
 ---
+
 Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
-  
+
 Sass lets you use features that don&#8217;t exist in CSS yet like variables, nesting, mixins, inheritance and other nifty goodies that make writing CSS fun again.
-  
+
 Once Sass is installed, you can compile your Sass to CSS using the sass command. You&#8217;ll need to tell Sass which file to build from, and where to output CSS to.
-  
+
 For example, running `sass input.scss output.css` from your terminal would take a single Sass file, `input.scss`, and compile that file to `output.css`.
 
 ## Features
 
-  1. Fully CSS-compatible
-  2. Language extensions such as variables, nesting, and mixins
-  3. Many useful functions for manipulating colors and other values
-  4. Advanced features like control directives for libraries
-  5. Well-formatted, customizable output
+1. Fully CSS-compatible
+2. Language extensions such as variables, nesting, and mixins
+3. Many useful functions for manipulating colors and other values
+4. Advanced features like control directives for libraries
+5. Well-formatted, customizable output
 
 ## Syntax
 
 There are two syntaxes available for Sass.
 
-  1. scss, an extension of the syntax of CSS
-  2. sass, using indentation rather than brackets to indicate nesting of selectors, and newlines rather than semicolons to separate properties
+1. scss, an extension of the syntax of CSS
+2. sass, using indentation rather than brackets to indicate nesting of selectors, and newlines rather than semicolons to separate properties
 
 ## Basic usage
 
@@ -115,22 +116,22 @@ nav li {
 ### Partials
 
 **purpose:**
-  
+
 You can create partial Sass files that contain little snippets of CSS that you can include in other Sass files. This is a great way to modularize your CSS and help keep things easier to maintain.
 
 **format:**
-  
-A partial is simply a Sass file named with **a leading underscore**. You might name it something like _partial.scss
+
+A partial is simply a Sass file named with **a leading underscore**. You might name it something like \_partial.scss
 
 **how-to-use:**
-  
+
 The underscore lets Sass know that the file is only a partial file and that it should not be generated into a CSS file. Sass partials are used with the `@import` directive.
 
 ### Import
 
 problem with import of original CSS:
 
-> Each time you use @import in CSS it creates another HTTP request 
+> Each time you use @import in CSS it creates another HTTP request
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-css">//_button.scss
 button {
@@ -175,7 +176,7 @@ is compiled to
 ### Extend/Inheritance
 
 Using @extend lets you share a set of CSS properties from one selector to another.
-  
+
 A placeholder class is a special type of class that only prints when it is extended, and can help keep your compiled CSS neat and clean.
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-css">// This CSS won't print because %equal-heights is never extended.
@@ -217,7 +218,7 @@ The magic happens in the generated CSS, where each of these classes will get the
 
 ### Operators
 
-Sass has a handful of standard math operators like +, -, *, /, and %.
+Sass has a handful of standard math operators like +, -, \*, /, and %.
 
 ### Comments: /\* \*/ and //
 
@@ -346,16 +347,16 @@ is compiled to
 
 ## @extend vs. @include
 
-  1. `@mixin` can take parameters which acts like a function.
-  2. `@extend` can&#8217;t not be used in @media directive.
-  3. `@mixin` do not merge selector, while `@extend` does.
+1. `@mixin` can take parameters which acts like a function.
+2. `@extend` can&#8217;t not be used in @media directive.
+3. `@mixin` do not merge selector, while `@extend` does.
 
 From my point of view, unless some components is surely the parent and child relationship, you should use `@mixin` instead of `@extend` in most cases.
 
 Take bootstrap 4.0,0 for example, by searching &#8216;extend&#8217; from the source code, you can only find **16 matches across 6 files**. However, you should find **204 matches across 51 files** when you search &#8216;include&#8217;.
 
-* * *
+---
 
 reference:
-  
+
 1. [sass](https://sass-lang.com/guide)

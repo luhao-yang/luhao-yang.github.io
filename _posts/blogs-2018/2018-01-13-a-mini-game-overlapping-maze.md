@@ -1,9 +1,9 @@
 ---
 id: 167
-title: 'A mini game: Overlapping Maze'
+title: "A mini game: Overlapping Maze"
 #date: 2018-01-13T23:58:14+00:00
 author: Luhao
-summary: 'Last week, I saw a TV show named 最强大脑, which means The Smartest Brain in English.During the showtime, I was deeply attracted by a game called 层叠消融. '
+summary: "Last week, I saw a TV show named 最强大脑, which means The Smartest Brain in English.During the showtime, I was deeply attracted by a game called 层叠消融. "
 layout: post
 #guid: http://flywithfan.net/?p=167
 #permalink: /javascript/167/
@@ -12,6 +12,7 @@ categories:
 tags:
   - javascript
 ---
+
 ### Why did I do this?
 
 Last week, I saw a TV show named 最强大脑, which means The Smartest Brain in English.During the showtime, I was deeply attracted by a game called 层叠消融.
@@ -32,12 +33,12 @@ Play the demo here [overlapping maze](/assets/demo/overlappingmaze/)
 
 #### What I do:
 
-  1. initialize some shapes, just rectangles for this demo
-  2. bind functions on drag events, both dragstart and dragend
-  3. calculating intersections between those shapes
-  4. create areas of intersections, then fill white or black based on how many layers overlapped. Is the overlapping section a even number or odd one?
+1. initialize some shapes, just rectangles for this demo
+2. bind functions on drag events, both dragstart and dragend
+3. calculating intersections between those shapes
+4. create areas of intersections, then fill white or black based on how many layers overlapped. Is the overlapping section a even number or odd one?
 
-step 3 and 4 are the most difficult part, I have discussed it with my smart girlfirend to figure out how to do it. (^_^)
+step 3 and 4 are the most difficult part, I have discussed it with my smart girlfirend to figure out how to do it. (^\_^)
 
 #### Here is the source code.
 
@@ -227,5 +228,5 @@ function deleteArea() {
 
 ### What should be done next?
 
-  1. Extend the category of shapes, circle, ellipse, ploygon&#8230;
-  2. Optimize the visual effect when dragging
+1. Extend the category of shapes, circle, ellipse, ploygon&#8230;
+2. Optimize the visual effect when dragging

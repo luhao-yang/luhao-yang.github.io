@@ -1,6 +1,6 @@
 ---
 id: 184
-title: '6 takeaways from Donald Trump&#8217;s first State of the Union speech'
+title: "6 takeaways from Donald Trump&#8217;s first State of the Union speech"
 #date: 2018-01-31T23:39:57+00:00
 author: Luhao
 summary: "I just read an article of trump's state of union, just for keeping up with latest politic news and learning English"
@@ -12,6 +12,7 @@ categories:
 tags:
   - misc
 ---
+
 President Donald Trump delivered his first State of the Union address on Tuesday night, a (very) lengthy speech in which he largely revisited his accomplishments over his first year in office and offered a handful of proposals he&#8217;d like to see considered in the coming year.
 
 While it&#8217;s important not to over-analyze what the speech means for Trump&#8217;s presidency &#8212; his first year in office suggests what he says one day means very little for what he will do the next &#8212; I did **jot down** a few takeaways from the address. They&#8217;re below.
@@ -29,7 +30,7 @@ In the early moments of Trump&#8217;s speech, he made several calls for the coun
 &#8220;Tonight, I call upon all of us to set aside our differences, to seek out common ground, and to summon the unity we need to deliver for the people we were elected to serve,&#8221; Trump said at one point.
 
 &#8220;If you work hard, if you believe in yourself, if you believe in America, then you can dream anything, you can be anything, and together, we can achieve anything,&#8221; he said at another.
-  
+
 House Minority Leader Nancy Pelosi&#8217;s reaction to Trump&#8217;s mention of the need to come together for the good of the American people tells you everything you need to know about the chances of that actually happening.
 
 ## 3. A greatest hits album
@@ -39,7 +40,7 @@ Most state of the union addresses are roughly evenly split between a **touting**
 Trump&#8217;s speech was 80% celebration of what he has done and 20% talking about what he would like to do. (In truth, the percentage might have tilted even more in the direction of Trump&#8217;s recitation of his greatest hits.)
 
 It was almost an hour into his remarks that Trump first mentioned a proposal &#8212; a massive infrastructure bill &#8212; that he wanted Congress to take up. Trump did pick up some steam on the proposal front &#8212; pushing Congress to take up his immigration compromise, for one.
-  
+
 But, proposals and wish lists weren&#8217;t top-of-mind for Trump in this speech. Making sure he mentioned all of the things he believes he has succeeded in (and the media has overlooked) was.
 
 ## 4. Trump as the Obama eraser
@@ -59,7 +60,7 @@ Nowhere in Trump&#8217;s speech did he address &#8212; even **obliquely** &#8212
 In fact Trump uttered the word &#8220;Russia&#8221; only once. &#8220;Around the world, we face rogue regimes, terrorist groups, and rivals like China and Russia that challenge our interests, our economy, and our values,&#8221; he said.
 
 It&#8217;s not terribly surprising that Trump &#8212; in a speech **ostensibly** about unity and bipartisanship &#8212; wouldn&#8217;t mention an investigation that is tearing at the heart and soul of political Washington.
-  
+
 Still, it was an absence worth noting &#8212; particularly given that Trump spoke for 80 minutes and tackled virtually every other subject under the sun.
 
 ## 6. Stagecraft was top notch
@@ -68,15 +69,15 @@ Still, it was an absence worth noting &#8212; particularly given that Trump spok
 
 Perhaps not surprising for someone who has lived his life in the spotlight and who built a life on image and brand, the stagecraft of Trump&#8217;s first State of the Union was outstanding. From the families who lost loved ones to the MS-13 gang to Otto Warmbier&#8217;s parents to the North Korean defector and his crutches, the visuals &#8212; and the stories they told &#8212; were haunting and memorable.
 
-* * *
+---
 
 Here are my notes:
 
 **What is State of the Union?**
 
 > The State of the Union Address is an annual message[1] presented by the President of the United States to a joint session of the United States Congress, except in the first year of a new president&#8217;s term.
-    
-> see [more](https://en.wikipedia.org/wiki/State_of_the_Union) 
+
+> see [more](https://en.wikipedia.org/wiki/State_of_the_Union)
 
 **jot down**: write briefly or hurriedly; write a short note of
 

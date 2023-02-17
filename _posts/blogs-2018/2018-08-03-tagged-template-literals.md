@@ -11,10 +11,11 @@ categories:
 tags:
   - javascript
 ---
+
 I didn&#8217;t notice that the back quote&#8217;s meaning in the styled-components until today! I have been using styled-components for a long time, and I thought it was Babel somehow to transform the code segment. Today, I finally read that article that explained the magic behind styled-components when I was going through the document online.
 
 No more nonsense, let&#8217;s get into our gist.
-  
+
 This is a common pattern of styled-components.
 
 <pre><code class="language-javascript ">const Button = styled.button`
@@ -151,12 +152,12 @@ const sizesEquivalent = {
 
 And what the hell is **_css_** function?
 
-> A helper function to generate CSS from atemplate literal with interpolations. 
+> A helper function to generate CSS from atemplate literal with interpolations.
 
 You need to use this if you return a template literal with interpolations **inside an interpolation**.
 
 It returns an array of interpolations,
-  
+
 which is a flattened data structure that you can pass as an interpolation itself.
 
 <pre><code class="language-javascript ">console.log(css`color: green;`)
@@ -186,6 +187,6 @@ So, in a conclusion, we would have our component like this:
 `;
 </code></pre>
 
-* * *
+---
 
 [magic behind styled-components](https://mxstbr.blog/2016/11/styled-components-magic-explained/)

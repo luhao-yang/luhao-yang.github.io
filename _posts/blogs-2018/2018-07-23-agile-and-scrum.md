@@ -12,6 +12,7 @@ categories:
 tags:
   - agile
 ---
+
 ## Agile
 
 Agile is a term used to describe approaches to software development emphasizing incremental delivery, team collaboration, continual planning, and continual learning.
@@ -20,16 +21,16 @@ Agile is a term used to describe approaches to software development emphasizing 
 
 We have come to value:
 
-  * Individuals and interactions over processes and tools
-  * Working software over comprehensive documentation
-  * Customer collaboration over contract negotiation
-  * Responding to change over following a plan
+- Individuals and interactions over processes and tools
+- Working software over comprehensive documentation
+- Customer collaboration over contract negotiation
+- Responding to change over following a plan
 
 Agile is a mindset, which drives an approach to software development.
 
 ## Scrum
 
-> Scrum is an agile way to manage a project, usually software development. Agile software development with Scrum is often perceived as a methodology; but rather than viewing Scrum as methodology, think of it as a framework for managing a process. 
+> Scrum is an agile way to manage a project, usually software development. Agile software development with Scrum is often perceived as a methodology; but rather than viewing Scrum as methodology, think of it as a framework for managing a process.
 
 Instead of providing complete, detailed descriptions of how everything is to be done on a project, much of it is left up to the Scrum software development team.
 
@@ -59,12 +60,12 @@ One way to think of the interlocking nature of these three roles in this agile m
 
 The Scrum model suggests that projects progress via a series of **sprints**. In keeping with an agile methodology, sprints are **timeboxed** to no more than a month long, most commonly **two weeks**.
 
-  1. Scrum methodology advocates for a planning meeting at the start of the sprint, where team members figure out how many items they can commit to, and then create a sprint backlog – a list of the tasks to perform during the sprint.</p> 
-  2. During an agile Scrum sprint, the Scrum team takes a small set of features from idea to coded and tested functionality. At the end, these features are done, meaning coded, tested and **integrated** into the evolving product or system.
+1. Scrum methodology advocates for a planning meeting at the start of the sprint, where team members figure out how many items they can commit to, and then create a sprint backlog – a list of the tasks to perform during the sprint.</p>
+2. During an agile Scrum sprint, the Scrum team takes a small set of features from idea to coded and tested functionality. At the end, these features are done, meaning coded, tested and **integrated** into the evolving product or system.
 
-  3. On each day of the sprint, all team members should attend a **daily Scrum meeting**, including the ScrumMaster and the product owner. This meeting is timeboxed to no more than 15 minutes. During that time, team members share what they worked on the prior day, will work on that day, and identify any impediments to progress.
+3. On each day of the sprint, all team members should attend a **daily Scrum meeting**, including the ScrumMaster and the product owner. This meeting is timeboxed to no more than 15 minutes. During that time, team members share what they worked on the prior day, will work on that day, and identify any impediments to progress.
 
-  4. At the end of a sprint, the team conducts a **sprint review** during which the team demonstrates the new functionality to the PO or any other stakeholder who wishes to provide feedback that could influence the next sprint.
+4. At the end of a sprint, the team conducts a **sprint review** during which the team demonstrates the new functionality to the PO or any other stakeholder who wishes to provide feedback that could influence the next sprint.
 
 This feedback loop within Scrum software development may result in changes to the freshly delivered functionality, but it may just as likely result in revising or adding items to the product backlog.
 
@@ -72,25 +73,25 @@ Another activity in Scrum project management is the **sprint retrospective** at 
 
 ### The Main Artifacts
 
-  * The primary artifact in Scrum development is, of course, the product itself. The goal is to bring the product or system to a potentially **shippable state** at the end of each Scrum sprint.</p> 
-  * The product **backlog** is another artifact of Scrum.This is the complete list of the functionality that remains to be added to the product. The product owner prioritizes the backlog so the team always works on the most **valuable** features first.
+- The primary artifact in Scrum development is, of course, the product itself. The goal is to bring the product or system to a potentially **shippable state** at the end of each Scrum sprint.</p>
+- The product **backlog** is another artifact of Scrum.This is the complete list of the functionality that remains to be added to the product. The product owner prioritizes the backlog so the team always works on the most **valuable** features first.
 
-  * Additional artifacts resulting from the Scrum agile methodology is the **sprint burndown chart and release burndown chart**. Burndown charts show the amount of work remaining either in a sprint or a release, and are an effective tool in Scrum software development to determine whether a sprint or release is on schedule to have all planned work finished by the desired date.
+- Additional artifacts resulting from the Scrum agile methodology is the **sprint burndown chart and release burndown chart**. Burndown charts show the amount of work remaining either in a sprint or a release, and are an effective tool in Scrum software development to determine whether a sprint or release is on schedule to have all planned work finished by the desired date.
 
 BTW, what is a burndown chart? see the [definition](https://en.wikipedia.org/wiki/Burn_down_chart).
-  
+
 ![](https://upload.wikimedia.org/wikipedia/commons/8/8c/Burn_down_chart.png)
 
 ### Benefits
 
 Organizations that have adopted agile Scrum have experienced:
 
-  * Higher productivity
-  * Better-quality products
-  * Reduced time to market
-  * Improved stakeholder satisfaction
-  * Better team dynamics
-  * Happier employees
+- Higher productivity
+- Better-quality products
+- Reduced time to market
+- Improved stakeholder satisfaction
+- Better team dynamics
+- Happier employees
 
 ## Waterfall vs. Agile
 
@@ -98,25 +99,25 @@ Organizations that have adopted agile Scrum have experienced:
 
 Waterfall is a linear approach to software development. In this methodology, the sequence of events is something like:
 
-  * Gather and document requirements
-  * Design
-  * Code and unit test
-  * Perform system testing
-  * Perform user acceptance testing (UAT)
-  * Fix any issues
-  * Deliver the finished product
+- Gather and document requirements
+- Design
+- Code and unit test
+- Perform system testing
+- Perform user acceptance testing (UAT)
+- Fix any issues
+- Deliver the finished product
 
 issues with pure Waterfall approach:
 
-  * One area which almost always falls short is the effectiveness of requirements. Gathering and documenting requirements in a way that is meaningful to a customer is often the most difficult part of software development.</p> 
-  * Another potential drawback of pure Waterfall development is the possibility that the customer will be dissatisfied with their delivered software product. By that time, changes can be difficult (and costly) to implement.
+- One area which almost always falls short is the effectiveness of requirements. Gathering and documenting requirements in a way that is meaningful to a customer is often the most difficult part of software development.</p>
+- Another potential drawback of pure Waterfall development is the possibility that the customer will be dissatisfied with their delivered software product. By that time, changes can be difficult (and costly) to implement.
 
-* * *
+---
 
 Resources:
-  
+
 1.[what is agile](https://docs.microsoft.com/en-us/azure/devops/agile/what-is-agile)
-  
+
 2.[scrum](https://www.mountaingoatsoftware.com/agile/scrum)
-  
+
 3.[waterfall vs agile](https://www.seguetech.com/waterfall-vs-agile-methodology/)

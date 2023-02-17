@@ -12,6 +12,7 @@ categories:
 tags:
   - browser
 ---
+
 HTML Drag and Drop interfaces enable applications to use drag and drop features in Firefox and other browsers. For example, with these features, the user can select draggable elements with a mouse, drag the elements to a droppable element, and drop those elements by releasing the mouse button. A translucent representation of the draggable elements follows the mouse pointer during the drag operation.
 
 ## Drag Events
@@ -75,7 +76,7 @@ The handler for the drop event is free to process the drag data in an applicatio
 
 At the end of a drag operation, the dragend event fires at the source element &#8211; the element that was the target of the drag start. This event fires whether the drag completed or was canceled. The dragend event handler can check the value of the dropEffect property to determine if the drag operation succeeded or not.
 
-* * *
+---
 
 I made an experiment here, you can see my [demo](/assets/demo/dragdrop.html)
 
@@ -175,4 +176,4 @@ Of course, you can use open source library such as [dropzone.js](http://www.drop
 
 LINKS:
 
-[HTML\_Drag\_and\_Drop\_API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
+[HTML_Drag_and_Drop_API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)

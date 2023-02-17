@@ -10,6 +10,7 @@ layout: post
 categories:
   - Life
 ---
+
 ### Why?
 
 I&#8217;ve left my footsteps on several countries from across Europe to America, along the coast of southeast asia all the way down to Australasia. Although after the beginning of my professional years I may not have that much time, each year I&#8217;d still try to squeeze some time to relax, mostly abroad. Here arose the question: Why do people travel? Why do I travel?

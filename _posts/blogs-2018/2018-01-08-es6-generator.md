@@ -1,6 +1,6 @@
 ---
 id: 163
-title: 'ES6 &#8211; Generator'
+title: "ES6 &#8211; Generator"
 #date: 2018-01-08T17:26:58+00:00
 author: Luhao
 summary: The Generator object is returned by a generator function and it conforms to both the iterable protocol and the iterator protocol
@@ -12,6 +12,7 @@ categories:
 tags:
   - javascript
 ---
+
 The Generator object is returned by a generator function and it conforms to both the iterable protocol and the iterator protocol.
 
 ### iterable protocol
@@ -30,27 +31,27 @@ An object is an iterator when it implements a next() method with the following s
 
 A zero arguments function that returns an object with two properties:
 
-  * done (boolean) 
-      * Has the value true if the iterator is past the end of the iterated sequence. In this case value optionally specifies the return value of the iterator. The return values are explained here.
-      * Has the value false if the iterator was able to produce the next value in the sequence. This is equivalent of not specifying the done property altogether.
-  * value &#8211; any JavaScript value returned by the iterator. Can be omitted when done is true.
+- done (boolean)
+  - Has the value true if the iterator is past the end of the iterated sequence. In this case value optionally specifies the return value of the iterator. The return values are explained here.
+  - Has the value false if the iterator was able to produce the next value in the sequence. This is equivalent of not specifying the done property altogether.
+- value &#8211; any JavaScript value returned by the iterator. Can be omitted when done is true.
 
 The next method always has to return an object with appropriate properties including done and value. If a non-object value gets returned (such as false or undefined), a TypeError (&#8220;iterator.next() returned a non-object value&#8221;) will be thrown.
 
-* * *
+---
 
 Generator has three methods:
 
 **Generator.prototype.next()**
-  
+
 Returns a value yielded by the yield expression.
 
 **Generator.prototype.return()**
-  
+
 Returns the given value and finishes the generator.
 
 **Generator.prototype.throw()**
-  
+
 Throws an error to a generator.
 
 ### Examples
@@ -113,10 +114,10 @@ for (let [key, value] of iterEntries(myObj)) {
 
 Before ES6, there are 4 types of async programming:
 
-  * callbacks
-  * event listening
-  * publish/subscribe
-  * Promise 
+- callbacks
+- event listening
+- publish/subscribe
+- Promise
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-JavaScript">var fetch = require('node-fetch');
 
@@ -138,12 +139,12 @@ result.value.then(function(data){
 
 </code></pre>
 
-* * *
+---
 
 LINKS:
-  
+
 [Generator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)
-  
+
 [Generator 函数的语法](http://es6.ruanyifeng.com/#docs/generator)
-  
+
 [Generator 函数的异步应用](http://es6.ruanyifeng.com/#docs/generator-async)

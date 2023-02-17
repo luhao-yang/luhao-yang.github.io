@@ -3,7 +3,7 @@ id: 3
 title: Common security settings of system
 #date: 2018-01-01T17:34:32+00:00
 author: Luhao
-summary: 'Since I have been hacked by someone, I started to pay more attention on the security settings of system.'
+summary: "Since I have been hacked by someone, I started to pay more attention on the security settings of system."
 layout: post
 #guid: http://45.33.40.211/?p=3
 #permalink: /misc/3/
@@ -12,8 +12,9 @@ categories:
 tags:
   - security
 ---
+
 Since I have been hacked by someone, I started to pay more attention on the security settings of system.
-  
+
 **First of All**, I change a silly six character password into long randomized complicated password for root. And I add some anthor common settings like these below:
 
 ### Add another user (deploy is just a example)
@@ -25,28 +26,27 @@ chmod 700 /home/deploy/.ssh
 </code></pre>
 
 To assign the shell type
-  
+
 `usermod -s /bin/bash deploy`
 
 To assign password to the new user
-  
+
 `passwd deploy`
 
 ### Login related
 
-  * SSH config 
-    `vi /etc/ssh/sshd_config`
-    
-    change default port to a custom port, like 36792 or anything else
-    
-    **diabled root login**
-    
-    <pre class="line-numbers prism-highlight" data-start="1"><code class="language-shell">PermitRootLogin no 
-#=&gt;
-PermitRootLogin off
-</code></pre>
-    
-    Then restart ssh
+- SSH config
+  `vi /etc/ssh/sshd_config`
+  change default port to a custom port, like 36792 or anything else
+
+      **diabled root login**
+
+      <pre class="line-numbers prism-highlight" data-start="1"><code class="language-shell">PermitRootLogin no
+
+  #=&gt;
+  PermitRootLogin off
+  </code></pre>
+  Then restart ssh
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-null">service sshd restart
 #centOS 7
@@ -54,15 +54,15 @@ systemctl restart sshd.service
 
 </code></pre>
 
-  * limit the times of trying to login:
-    
-    `/etc/pam.d/login`
-    
-    add to end of file:
-    
-    `auth required pam_tally2.so deny=6 unlock_time=180 even_deny_root  root_unlock_time=180`
+- limit the times of trying to login:
 
-  * only allow group wheel to use **_su_**
+  `/etc/pam.d/login`
+
+  add to end of file:
+
+  `auth required pam_tally2.so deny=6 unlock_time=180 even_deny_root  root_unlock_time=180`
+
+- only allow group wheel to use **_su_**
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-null"># usermod -G wheel sysmgr
 
@@ -73,14 +73,14 @@ auth            required        pam_wheel.so use_uid
 
 Even if he input the correct password, system would deny him for
 
-> su: incorrect password 
+> su: incorrect password
 
-  * kick out if 5 mins without action
-  
-    `/etc/profile`</p> 
-    export TMOUT=300
-  
-    readonly TMOUT
+- kick out if 5 mins without action
+
+  `/etc/profile`</p>
+  export TMOUT=300
+
+  readonly TMOUT
 
 ### close unused users and groups
 
@@ -160,7 +160,7 @@ chattr +i /etc/gshadow
 chattr +i /etc/services 
 </code></pre>
 
-protect /etc/rc.d/init.d/* from other users to edit
+protect /etc/rc.d/init.d/\* from other users to edit
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-null">chmod -R 700 /etc/rc.d/init.d/*
 chmod -R 777 /etc/rc.d/init.d/* #恢复默认设置

@@ -1,6 +1,6 @@
 ---
 id: 300
-title: 'Mocha/chai &#8211; JavaScript unit testing'
+title: "Mocha/chai &#8211; JavaScript unit testing"
 #date: 2018-02-20T11:22:02+00:00
 author: Luhao
 summary: "Let's go with the one of the most popular JavaScript unit testing framework!"
@@ -12,19 +12,20 @@ categories:
 tags:
   - testing
 ---
+
 ![](https://camo.githubusercontent.com/7fbd61a113b7f10ed1709e74f3715a2a60ba5177/687474703a2f2f61706974657374696e672e626967737469636b6361727065742e636f6d2f6173736574732f696d672f6d6f6368612d636861692f6c6f676f2e706e67)
 
 ## Mocha
 
-> Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases. 
+> Mocha is a feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases.
 
 Mocha allows you to use **any** assertion library you wish.This means you can use libraries such as:
 
-  * chai &#8211; expect(), assert() and should-style assertions
-  * should.js &#8211; BDD style shown throughout these docs
-  * expect.js &#8211; expect() style assertions
-  * better-assert &#8211; C-style self-documenting assert()
-  * unexpected &#8211; “the extensible BDD assertion toolkit”
+- chai &#8211; expect(), assert() and should-style assertions
+- should.js &#8211; BDD style shown throughout these docs
+- expect.js &#8211; expect() style assertions
+- better-assert &#8211; C-style self-documenting assert()
+- unexpected &#8211; “the extensible BDD assertion toolkit”
 
 **describe**: describe() is simply a way to group our tests in Mocha
 
@@ -179,7 +180,7 @@ Output:
 
 ## Chai
 
-> Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework. 
+> Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
 
 TDD assert style: more classical
 
@@ -217,7 +218,7 @@ expect(beverages).to.have.property('tea').with.lengthOf(3);
 ### Should
 
 Should require the function is being **executed**.
-  
+
 It extends **Object.prototype** to provide a single getter as the starting point for your language assertions. It works on node.js and in all modern browsers except Internet Explorer.
 
 <pre><code class="language-javascript ">var should = require('chai').should() //actually call the function
@@ -249,12 +250,12 @@ db.get(1234, function (err, doc) {
 
 helpers to keep you out of trouble:
 
-  * should.exist
-  * should.not.exist
-  * should.equal
-  * should.not.equal
-  * should.Throw
-  * should.not.Throw
+- should.exist
+- should.not.exist
+- should.equal
+- should.not.equal
+- should.Throw
+- should.not.Throw
 
 ### Configuration
 

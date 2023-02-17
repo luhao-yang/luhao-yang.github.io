@@ -12,9 +12,10 @@ categories:
 tags:
   - misc
 ---
+
 Code Guide by @mdo
 
-> Standards for developing flexible, durable, and sustainable HTML and CSS. 
+> Standards for developing flexible, durable, and sustainable HTML and CSS.
 
 Table of contents:
 

@@ -12,12 +12,13 @@ tags:
   - security
   - browser
 ---
+
 Honestly, I was curious about the &#8220;cookie&#8221; promopt all the time but I didn&#8217;t really care about it until I came across the [The California Internet Privacy Bill](https://www.pillsburylaw.com/en/news-and-insights/california-internet-privacy-bill-signed-by-governor.html), then I knew why I often saw these on all kinds of website, but strangely, I have never seen this thing on chinese websites. Maybe we don&#8217;t respect the privacy of others, haha. But it really enlightened me on the thoughts about the privacy and the concerns about the security of cookies.
 
 If any consumers of your web service are located in the state of California, you must:
 
-  * Explain &#8220;how you deal with&#8221; do-not-track requests.
-  * Make that information available in a conspicuous way from your homepage. (A text link to a privacy policy will do the trick)
+- Explain &#8220;how you deal with&#8221; do-not-track requests.
+- Make that information available in a conspicuous way from your homepage. (A text link to a privacy policy will do the trick)
 
 Like this:
 
@@ -29,16 +30,17 @@ An HTTP cookie is a small piece of data that a server sends to the user&#8217;s 
 
 Cookies are mainly used for three purposes:
 
-  * **Session management**
-  
-    Logins, shopping carts, game scores, or anything else the server should remember</p> 
-  * **Personalization**
-  
-    User preferences, themes, and other settings
+- **Session management**
 
-  * **Tracking**
-  
-    Recording and analyzing user behavior
+  Logins, shopping carts, game scores, or anything else the server should remember</p>
+
+- **Personalization**
+
+  User preferences, themes, and other settings
+
+- **Tracking**
+
+  Recording and analyzing user behavior
 
 Cookies are sent with **every** request, so they can worsen performance (especially for mobile data connections). Modern APIs are recommended for client storage via Web storage API (**localStorage** and **sessionStorage**) and **IndexedDB**.
 
@@ -61,7 +63,7 @@ Cookie: yummy_cookie=choco; tasty_cookie=strawberry
 ## Security
 
 **HttpOnly**
-  
+
 To prevent cross-site scripting (XSS) attacks, **HttpOnly** cookies are **inaccessible** to JavaScript&#8217;s Document.cookie API. Instead, they are only sent to the server.
 
 An example of exploiting XSS vulnerabilites:
@@ -72,7 +74,7 @@ An example of exploiting XSS vulnerabilites:
 The **HttpOnly** cookie attribute can help by preventing access to cookie value through JavaScript.
 
 **Secure**
-  
+
 A secure cookie is only sent to the server with a encrypted request over the **HTTPS** protocol. Even with Secure, sensitive information should never be stored in cookies, as they are inherently insecure and this flag can&#8217;t offer real protection.
 
 So, we are supposed to set cookies like this:
@@ -93,12 +95,12 @@ If you are logged into your bank account and your cookies are still valid (and t
 
 There are a few techniques that are used to prevent this from happening:
 
-  * input filtering
-  * confirmation required for any sensitive action
-  * short lifetime of cookies for sensitive actions
+- input filtering
+- confirmation required for any sensitive action
+- short lifetime of cookies for sensitive actions
 
-For more prevention tips, see the [OWASP CSRF prevention cheat sheet](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet).
+For more prevention tips, see the [OWASP CSRF prevention cheat sheet](<https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet>).
 
-* * *
+---
 
 1.[Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)

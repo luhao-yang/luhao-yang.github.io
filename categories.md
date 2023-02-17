@@ -7,22 +7,21 @@ permalink: /categories/
 <link rel="stylesheet" href="/assets/css/categories.css">
 <script type="text/javascript" src="/assets/js/common.js"></script>
 
-
 {% assign sorted_cg_array = '' | split: '' %}
 
 {% for cg in site.categories %}
-  {% assign current_cg_name = cg[0]  %}
-  {% assign current_cg_size = cg[1].size %}
+{% assign current_cg_name = cg[0]  %}
+{% assign current_cg_size = cg[1].size %}
 
-  {% assign sorted_cg_array = sorted_cg_array | push: current_cg_name %}
+{% assign sorted_cg_array = sorted_cg_array | push: current_cg_name %}
 
-  {% if sorted_cg_array.size < 2 %}
-    {% continue %}
-  {% endif %}
+{% if sorted_cg_array.size < 2 %}
+{% continue %}
+{% endif %}
 
-  {% assign sorted_array_length = sorted_cg_array.size | plus: 0 %}
-  {% assign sorted_array_length_minusone = sorted_array_length | minus: 1 %}
-  
+{% assign sorted_array_length = sorted_cg_array.size | plus: 0 %}
+{% assign sorted_array_length_minusone = sorted_array_length | minus: 1 %}
+
     {% for i in (1..sorted_array_length_minusone) %}
       {% assign index = sorted_array_length_minusone | minus: i %}
       {% assign index_addone = index | plus:1 %}
@@ -47,7 +46,7 @@ permalink: /categories/
           {% endif %}
         {% endfor %}
         {% assign sorted_cg_array = newArray %}
-       
+
       {% else%}
         {% break %}
       {% endif %}
@@ -55,7 +54,6 @@ permalink: /categories/
     {% endfor %}
 
 {% endfor %}
-
 
 <div id="category-container" class="container text-left">
   <div class="row">
@@ -70,7 +68,7 @@ permalink: /categories/
 
         <div class="category-button {{ colors[index] }}"><a onclick="showCategoryList('{{ category_name_for_id }}')">{{ category_name }} ({{ category_size }})</a>
         </div>
-        
+
       {% endfor %}
     </div>
 
@@ -88,6 +86,6 @@ permalink: /categories/
 
       {% endfor %}
     </div>
+
   </div>
 </div>
-

@@ -12,6 +12,7 @@ categories:
 tags:
   - javascript
 ---
+
 Generator is a powerful feature of ES6, which conforms to both the iterable protocol and the iterator protocol. Besides, Generator could be used to write asynchronous process. On the other hand, async/await is introduced to specilize in async process.
 
 ## Brief intro
@@ -63,8 +64,8 @@ Ideally, we want the generator automatically execute this segment of code.
 
 The key is to find a way to give control to callbacks inside generator function then give control back to generator. Hence, what we need is:
 
-  1. a thunk funtion wrapping the original async function
-  2. a auto execution process
+1. a thunk funtion wrapping the original async function
+2. a auto execution process
 
 ### for callbacks
 
@@ -199,7 +200,7 @@ Actually, if we use Promise to implement async process it would be much eaiser t
 </code></pre>
 
 Have you realized that we basically already implement the async/await
-  
+
 keyword?
 
 ## Async/await
@@ -208,7 +209,7 @@ When an async function is called, it returns a Promise. When the async function 
 
 An async function can contain an await expression, that pauses the execution of the async function and waits for the passed Promise&#8217;s resolution, and then resumes the async function&#8217;s execution and returns the resolved value.
 
-> The purpose of async/await functions is to simplify the behavior of using promises synchronously and to perform some behavior on a group of Promises. Just as Promises are similar to structured callbacks, async/await is similar to combining generators and promises 
+> The purpose of async/await functions is to simplify the behavior of using promises synchronously and to perform some behavior on a group of Promises. Just as Promises are similar to structured callbacks, async/await is similar to combining generators and promises
 
 let&#8217;s see the example.
 

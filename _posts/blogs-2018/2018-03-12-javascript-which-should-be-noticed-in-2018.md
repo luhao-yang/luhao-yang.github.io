@@ -12,7 +12,8 @@ categories:
 tags:
   - javascript
 ---
-[前端开发指南：这里是2018年最值得关注的JavaScript趋势](http://36kr.com/p/5111090.html)
+
+[前端开发指南：这里是 2018 年最值得关注的 JavaScript 趋势](http://36kr.com/p/5111090.html)
 
 ### 1.React vs. Vue.js
 
@@ -20,7 +21,7 @@ There are already many debates on them, I don&#8217;t talk more.
 
 ### 2.[Next.js](https://learnnextjs.com/)
 
-> Next.js is a minimalistic framework for server-rendered React applications. 
+> Next.js is a minimalistic framework for server-rendered React applications.
 
 What&#8217;s more, you can super fast deploy your app to cloud with [Now.js](https://zeit.co/now)
 
@@ -30,17 +31,17 @@ I never have hooked up with Angular, and don&#8217;t have plans in the future.
 
 ### 4.[Reason](https://reasonml.github.io/)
 
-> Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems. 
+> Reason lets you write simple, fast and quality type safe code while leveraging both the JavaScript & OCaml ecosystems.
 
 Facebook use Reason to develop web version of Messenger and other project like Whatsapp, Instagram, Ads etc.
-  
+
 They even introduced reason-react, with which it&#8217;s possible to code Reason into React js.
 
 OCaml? My first reaction is that, what the hell is this?
 
 Here is the official slogan of [OCaml](https://ocaml.org/).
 
-> OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles 
+> OCaml is an industrial strength programming language supporting functional, imperative and object-oriented styles
 
 ### 5.[GraphQL](http://graphql.org/)
 

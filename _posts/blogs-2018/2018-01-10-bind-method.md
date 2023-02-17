@@ -12,39 +12,40 @@ categories:
 tags:
   - javascript
 ---
+
 Before ES2015, we get used to using apply and call, now let&#8217;s take a look at bind method
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-javascript">fun.bind(thisArg[, arg1[, arg2[, ...]]])
 </code></pre>
 
 **thisArg**
-  
+
 The value to be passed as the this parameter to the target function when the bound function is called. The value is ignored if the bound function is constructed using the new operator.
 
 **arg1, arg2, &#8230;**
-  
+
 Arguments to prepend to arguments provided to the bound function when invoking the target function.
 
 **Return value**
-  
+
 A copy of the given function with the specified this value and initial arguments.
 
 ### Description
 
 The bind() function creates a new bound function (BF). A BF is an exotic function object (a term from ECMAScript 2015) that wraps the original function object. Calling a BF generally results in the execution of its wrapped function.
-  
+
 A BF has the following internal properties:
 
-  * **[[BoundTargetFunction]]** &#8211; the wrapped function object;
-  * **[[BoundThis]]** &#8211; the value that is always passed as this value when calling the wrapped function.
-  * **[[BoundArguments]]** &#8211; a list of values whose elements are used as the first arguments to any call to the wrapped function.
-  * **[[Call]]** &#8211; executes code associated with this object. Invoked via a function call expression. The arguments to the internal method are a this value and a list containing the arguments passed to the function by a call expression.
+- **[[BoundTargetFunction]]** &#8211; the wrapped function object;
+- **[[BoundThis]]** &#8211; the value that is always passed as this value when calling the wrapped function.
+- **[[BoundArguments]]** &#8211; a list of values whose elements are used as the first arguments to any call to the wrapped function.
+- **[[Call]]** &#8211; executes code associated with this object. Invoked via a function call expression. The arguments to the internal method are a this value and a list containing the arguments passed to the function by a call expression.
 
 When bound function is called, it calls internal method **[[Call]]** on **[[BoundTargetFunction]]**, with following arguments **Call(boundThis, args)**. Where, boundThis is **[[BoundThis]]**, args is **[[BoundArguments]]** followed by the arguments passed by the function call.
 
 A bound function may also be constructed using the new operator: doing so acts as though the target function had instead been constructed. The provided this value is ignored, while prepended arguments are provided to the emulated function.
 
-* * *
+---
 
 1.to make a function with pre-specified initial arguments
 
@@ -134,8 +135,8 @@ Polyfill:
 }
 </code></pre>
 
-* * *
+---
 
 LINKS:
-  
+
 [bind-MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)

@@ -12,6 +12,7 @@ categories:
 tags:
   - javascript
 ---
+
 I came across some issues in a project of my work, which needs me to modify the code logics but I don&#8217;t want to do so, because my group mates have been using the original functions all the time. So I just hook/hijack the original function to add some another process before they use them, without any extra edition for my group mates. It&#8217;s like AOP programming, at least I think it is.
 
 So I uploaded my code to Github. Here it is.
@@ -91,7 +92,7 @@ obj.print("only this sentence")
 
 </code></pre>
 
-* * *
+---
 
 ### SOURCE CODE
 

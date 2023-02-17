@@ -12,6 +12,7 @@ categories:
 tags:
   - javascript
 ---
+
 After reading the **Async Actions** and **Middleware** chapters of redux tutorial, I implemented my own middleware thunk, you can see this [demo](/assets/demo/middleware.html).
 
 In the example of offcial guide, it is considering the synchronous case so I just want to produce a **applyMiddleware** which could be applid both to sync and async function. I know they have already done that, but I just want to practice and make it my own way.
@@ -20,10 +21,10 @@ In order to apply to both sync and async situation, we need our middlewares retu
 
 I used these techniques:
 
-  1. arrow function
-  2. currying
-  3. deferred calculation
-  4. reduce
+1. arrow function
+2. currying
+3. deferred calculation
+4. reduce
 
 I think you can easily understand these code with those knowledge I mentioned above. So I will pass explaination, haha&#8230;
 
@@ -78,7 +79,7 @@ I think you can easily understand these code with those knowledge I mentioned ab
         }
 </code></pre>
 
-* * *
+---
 
 LINKS:
 

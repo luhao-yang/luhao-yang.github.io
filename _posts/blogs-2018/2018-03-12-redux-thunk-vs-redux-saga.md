@@ -3,7 +3,7 @@ id: 204
 title: Redux-thunk vs Redux saga
 #date: 2018-03-12T11:18:33+00:00
 author: Luhao
-summary: 'A glimpse of Redux-thunk and Redux saga '
+summary: "A glimpse of Redux-thunk and Redux saga "
 layout: post
 #guid: http://flywithfan.net/?p=204
 #permalink: /javascript/204/
@@ -12,6 +12,7 @@ categories:
 tags:
   - javascript
 ---
+
 ## What is redux-thunk
 
 A thunk is a function that wraps an expression to delay its evaluation.
@@ -55,7 +56,7 @@ You might&#8217;ve used redux-thunk before to handle your data fetching. Contrar
 let&#8217;s see some concepts first.
 
 **Effects:**
-  
+
 To express the Saga logic, we yield plain JavaScript Objects from the Generator. We call those Objects Effects.An Effect is simply an object that contains some information to be interpreted by the middleware.
 
 ### How it works
@@ -87,7 +88,7 @@ Instead of invoking the asynchronous function directly from inside the Generator
 
 Put another way, the Generator will yield plain Objects containing instructions, and the redux-saga middleware will take care of executing those instructions and **giving back** the result of their execution to the Generator.
 
-> **Writer&#8217;s note: the function must return a Promise, then saga knows how to give the result back.** 
+> **Writer&#8217;s note: the function must return a Promise, then saga knows how to give the result back.**
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-javascript">import { call } from 'redux-saga/effects'
 
@@ -131,7 +132,7 @@ Then the rest APIs can be deduced in this way above.
 
 so, simply put
 
-> Saga = Worker + Watcher 
+> Saga = Worker + Watcher
 
 <pre class="line-numbers prism-highlight" data-start="1"><code class="language-javascript">function* watcher() {
   while(true) {
@@ -148,7 +149,7 @@ function* worker(payload) {
 ### My Opinion
 
 So redux-thunk is very easy to learn, and you can use Promise or callbacks to implement your async process, which is fairly flexible.
-  
+
 But it is a bit tricky when you try to test the action process.
 
 On the contrary, redux-sage has huge advantages in reading and testing, because it allows you to write the code logic like synchronous process, thanks to generator. But you must use Promise, and comprehending the whole bunch of things is not friendly to beginners.
