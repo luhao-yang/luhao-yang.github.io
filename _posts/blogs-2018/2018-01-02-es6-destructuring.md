@@ -8,9 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=157
 #permalink: /javascript/157/
 categories:
-  - JavaScript
+  - Frontend
 tags:
-  - es6
+  - javascript
 ---
 # Destructuring
 

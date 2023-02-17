@@ -8,9 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=176
 #permalink: /web/176/
 categories:
-  - Web
+  - Frontend
 tags:
-  - frontend
+  - browser
 ---
 ## Event
 

@@ -8,7 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=197
 #permalink: /architecture/197/
 categories:
-  - Web
+  - Misc
+tag:
+  - misc
 ---
 ### 1. Native App
 

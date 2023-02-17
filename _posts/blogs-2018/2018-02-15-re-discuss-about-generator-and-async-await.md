@@ -8,9 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=191
 #permalink: /javascript/191/
 categories:
-  - JavaScript
+  - Frontend
 tags:
-  - es6
+  - javascript
 ---
 Generator is a powerful feature of ES6, which conforms to both the iterable protocol and the iterator protocol. Besides, Generator could be used to write asynchronous process. On the other hand, async/await is introduced to specilize in async process.
 

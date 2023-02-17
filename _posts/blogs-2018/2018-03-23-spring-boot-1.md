@@ -8,10 +8,10 @@ layout: post
 #guid: http://flywithfan.net/?p=220
 #permalink: /web/220/
 categories:
-  - Java
-  - Web
+  - Backend
 tags:
   - spring
+  - java
 ---
 ## What is Spring Boot
 

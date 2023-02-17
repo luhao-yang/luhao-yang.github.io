@@ -8,9 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=265
 #permalink: /javascript/265/
 categories:
-  - Web
+  - Frontend
 tags:
-  - frontend
+  - browser
 ---
 The HTML `<script>` element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.
 

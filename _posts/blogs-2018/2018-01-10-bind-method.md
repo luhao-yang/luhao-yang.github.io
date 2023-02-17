@@ -8,9 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=165
 #permalink: /javascript/165/
 categories:
-  - JavaScript
+  - Frontend
 tags:
-  - es6
+  - javascript
 ---
 Before ES2015, we get used to using apply and call, now let&#8217;s take a look at bind method
 

@@ -8,7 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=178
 #permalink: /misc/178/
 categories:
-  - Web
+  - Frontend
+tags:
+  - browser
 ---
 For most of the time(), we just use console.log or console.error() to output informartion in order to help us debug.
 

@@ -8,7 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=198
 #permalink: /architecture/198/
 categories:
-  - Web
+  - Architecture
+tag:
+  - pattern
 ---
 Many big technology companies place Node.js web servers in front of real API&#8217;s backend at the moment, Why?
 

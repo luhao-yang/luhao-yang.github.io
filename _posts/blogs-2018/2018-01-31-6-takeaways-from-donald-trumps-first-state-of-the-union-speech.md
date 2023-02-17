@@ -8,7 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=184
 #permalink: /english/184/
 categories:
-  - English
+  - Misc
+tags:
+  - misc
 ---
 President Donald Trump delivered his first State of the Union address on Tuesday night, a (very) lengthy speech in which he largely revisited his accomplishments over his first year in office and offered a handful of proposals he&#8217;d like to see considered in the coming year.
 

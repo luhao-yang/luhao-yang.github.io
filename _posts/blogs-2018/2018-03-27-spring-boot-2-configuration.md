@@ -7,7 +7,7 @@ layout: post
 #guid: http://flywithfan.net/?p=241
 #permalink: /java/241/
 categories:
-  - Java
+  - Backend
 tags:
   - spring
 ---

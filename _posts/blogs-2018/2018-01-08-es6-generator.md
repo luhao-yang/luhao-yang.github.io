@@ -8,9 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=163
 #permalink: /javascript/163/
 categories:
-  - JavaScript
+  - Frontend
 tags:
-  - es6
+  - javascript
 ---
 The Generator object is returned by a generator function and it conforms to both the iterable protocol and the iterator protocol.
 

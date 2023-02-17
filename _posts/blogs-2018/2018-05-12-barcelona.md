@@ -9,6 +9,8 @@ layout: post
 #permalink: /life/310/
 categories:
   - Life
+tags:
+  - travel log
 ---
 我是忙里偷闲，5.9号早上5点过起来看了NBA勇士打鹈鹕！7点坐大巴就去往格拉纳达机场，9点30起飞，11点多就到巴塞罗那了。下午入住的是公寓式酒店，apart hotel，条件一般，主要是因为旺季巴塞罗那酒店太难订了！
 

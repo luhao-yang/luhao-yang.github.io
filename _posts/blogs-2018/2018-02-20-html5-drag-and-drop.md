@@ -8,9 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=192
 #permalink: /web/192/
 categories:
-  - Web
+  - Frontend
 tags:
-  - frontend
+  - browser
 ---
 HTML Drag and Drop interfaces enable applications to use drag and drop features in Firefox and other browsers. For example, with these features, the user can select draggable elements with a mouse, drag the elements to a droppable element, and drop those elements by releasing the mouse button. A translucent representation of the draggable elements follows the mouse pointer during the drag operation.
 

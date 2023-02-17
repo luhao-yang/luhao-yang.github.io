@@ -8,7 +8,7 @@ layout: post
 #guid: http://flywithfan.net/?p=194
 #permalink: /javascript/194/
 categories:
-  - Web
+  - Frontend
 tags:
   - javascript
 ---

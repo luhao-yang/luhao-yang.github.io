@@ -8,7 +8,7 @@ layout: post
 #guid: http://flywithfan.net/?p=65
 #permalink: /english/65/
 categories:
-  - English
+  - Misc
 tags:
   - english
 ---
