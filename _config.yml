@@ -23,7 +23,7 @@ navigation: # Navigation links
   - {name: 'About', link: '/about'}
 
 tagline: >
-  "The best way to predict the future is to invent it." - Alan Kay
+  "The palest ink is better than the best memory"
 
 hero_img: uploads/sleek_lg.jpg # Main background image:
 
