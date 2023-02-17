@@ -50,11 +50,13 @@ function resize() {
     const allPromises = [];
 
     SIZES.forEach((item) => {
-      const outputFile = `${file.dirname}/${file.stem}${item.rename.suffix}${file.extname}`;
+      const outputFile = `${file.dirname}/${file.stem}${item.rename.suffix}.jpg`; // not using ${file.extname} because all convert to jpg
       filenames.push(outputFile);
 
       const image = sharp(file.contents);
-      image.resize(item.width);
+      image.resize(item.width).jpeg({
+        quality: 100,
+      });
 
       const clone = image.clone();
       allPromises.push(clone.toBuffer());
