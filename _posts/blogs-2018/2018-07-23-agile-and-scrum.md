@@ -9,7 +9,7 @@ layout: post
 #permalink: /misc/327/
 categories:
   - Misc
-categories:
+tags:
   - agile
 ---
 ## Agile
