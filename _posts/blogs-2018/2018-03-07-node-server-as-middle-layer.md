@@ -8,7 +8,7 @@ layout: post
 #guid: http://flywithfan.net/?p=198
 #permalink: /architecture/198/
 categories:
-  - Architecture
+  - Design
 tag:
   - pattern
 ---

@@ -8,7 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=34
 #permalink: /misc/34/
 categories:
-  - Network
+  - misc
+tags:
+  - network
 ---
 #### **SS  Client：**
 

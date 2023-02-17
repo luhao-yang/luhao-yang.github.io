@@ -8,7 +8,7 @@ layout: post
 #guid: http://flywithfan.net/?p=327
 #permalink: /misc/327/
 categories:
-  - Methodology
+  - Misc
 categories:
   - agile
 ---

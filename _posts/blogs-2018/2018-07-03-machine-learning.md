@@ -8,9 +8,9 @@ layout: post
 #guid: http://flywithfan.net/?p=280
 #permalink: /machine-learning/280/
 categories:
-  - Machine Learning
+  - Misc
 tags:
-  - Machine Learning
+  - machine learning
 ---
 ## What is ML
 
