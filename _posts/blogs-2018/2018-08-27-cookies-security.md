@@ -4,8 +4,7 @@ title: Cookies Security
 #date: 2018-08-27T17:44:07+00:00
 author: Luhao
 layout: post
-#guid: http://flywithfan.net/?p=385
-#permalink: /web/385/
+
 categories:
   - Security
 tags:

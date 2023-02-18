@@ -5,8 +5,7 @@ title: Mysql commonly used commands
 author: Luhao
 summary: Mysql commonly used commands, keep it just for convenience
 layout: post
-#guid: http://flywithfan.net/?p=272
-#permalink: /misc/272/
+
 categories:
   - Database
 tags:

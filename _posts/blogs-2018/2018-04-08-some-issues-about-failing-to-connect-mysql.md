@@ -4,8 +4,7 @@ title: Some issues about failing to connect mysql
 #date: 2018-04-08T18:29:29+00:00
 author: Luhao
 layout: post
-#guid: http://flywithfan.net/?p=268
-#permalink: /misc/268/
+
 categories:
   - Database
 tags:

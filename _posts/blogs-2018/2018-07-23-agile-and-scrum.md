@@ -5,8 +5,7 @@ title: Agile and Scrum
 author: Luhao
 summary: We are in agile/scrum development every day. But how many of us can really speck out the theory of agile and scrum?
 layout: post
-#guid: http://flywithfan.net/?p=327
-#permalink: /misc/327/
+
 categories:
   - Misc
 tags:

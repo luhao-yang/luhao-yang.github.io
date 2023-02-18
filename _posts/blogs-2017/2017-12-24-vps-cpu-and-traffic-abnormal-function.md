@@ -5,8 +5,7 @@ title: CPU and traffic abnormal behavior on VPS!
 author: Luhao
 summary: Dealing with some unknown process in my VPS, which almost ate up all the resource of operating system, like cpu, traffic, IO, maybe memory
 layout: post
-#guid: http://flywithfan.net/?p=96
-#permalink: /misc/96/
+
 categories:
   - Security
 ---

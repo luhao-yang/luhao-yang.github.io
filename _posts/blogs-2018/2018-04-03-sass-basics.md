@@ -5,8 +5,7 @@ title: Sass basics
 author: Luhao
 summary: Basic usages and syntaxes of Sass
 layout: post
-#guid: http://flywithfan.net/?p=266
-#permalink: /web/266/
+
 categories:
   - Frontend
 tags:

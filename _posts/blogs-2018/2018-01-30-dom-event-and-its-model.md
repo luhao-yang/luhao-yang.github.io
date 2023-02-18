@@ -5,8 +5,7 @@ title: DOM Event and its Model
 author: Luhao
 summary: "Today I wanna go over the Event related things, just basic knowledgeand do some experiments, "
 layout: post
-#guid: http://flywithfan.net/?p=176
-#permalink: /web/176/
+
 categories:
   - Frontend
 tags:

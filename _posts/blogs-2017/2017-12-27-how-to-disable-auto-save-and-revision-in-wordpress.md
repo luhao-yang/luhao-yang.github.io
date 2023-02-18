@@ -6,8 +6,6 @@ author: Luhao
 summary: |
   I just don't like "Autosave" and "Revison" feature of Wordpress, So do you? Let's kick them out of our website!
 layout: post
-#guid: http://flywithfan.net/?p=107
-#permalink: /misc/107/
 categories:
   - Misc
 tags:

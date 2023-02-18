@@ -5,8 +5,7 @@ title: 巴塞罗那 Barcelona
 author: Luhao
 summary: 欧洲之行-西班牙
 layout: post
-#guid: http://flywithfan.net/?p=310
-#permalink: /life/310/
+
 categories:
   - Life
 tags:

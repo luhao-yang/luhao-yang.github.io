@@ -5,8 +5,7 @@ title: Thymeleaf
 author: Luhao
 summary: Thymeleaf is a modern server-side Java template engine for both web and standalone environments.
 layout: post
-#guid: http://flywithfan.net/?p=207
-#permalink: /web/207/
+
 categories:
   - Misc
 tags:

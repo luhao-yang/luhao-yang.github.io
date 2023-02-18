@@ -5,8 +5,7 @@ title: Machine Learning
 author: Luhao
 summary: Just some basic concepts of Machine Learning
 layout: post
-#guid: http://flywithfan.net/?p=280
-#permalink: /machine-learning/280/
+
 categories:
   - Misc
 tags:

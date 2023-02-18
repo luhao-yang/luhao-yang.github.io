@@ -5,8 +5,7 @@ title: App development roads
 author: Luhao
 summary: "There are some popular app development roads on the table. Let's take a look."
 layout: post
-#guid: http://flywithfan.net/?p=197
-#permalink: /architecture/197/
+
 categories:
   - Misc
 tag:

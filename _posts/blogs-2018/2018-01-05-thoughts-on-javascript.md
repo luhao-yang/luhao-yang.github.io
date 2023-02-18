@@ -5,8 +5,7 @@ title: Thoughts on JavaScript
 author: Luhao
 summary: Some thoughts about javascript and goals set for myself...
 layout: post
-#guid: http://flywithfan.net/?p=162
-#permalink: /javascript/162/
+
 categories:
   - Frontend
 tags:

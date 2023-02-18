@@ -5,8 +5,7 @@ title: JavaScript which should be noticed in 2018
 author: Luhao
 summary: I read it on a chinese site, and translated into english. Take a glance at them
 layout: post
-#guid: http://flywithfan.net/?p=206
-#permalink: /javascript/206/
+
 categories:
   - Frontend
 tags:

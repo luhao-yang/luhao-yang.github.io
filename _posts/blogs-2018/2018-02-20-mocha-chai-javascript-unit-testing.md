@@ -5,8 +5,7 @@ title: "Mocha/chai &#8211; JavaScript unit testing"
 author: Luhao
 summary: "Let's go with the one of the most popular JavaScript unit testing framework!"
 layout: post
-#guid: http://flywithfan.net/?p=300
-#permalink: /javascript/300/
+
 categories:
   - Frontend
 tags:

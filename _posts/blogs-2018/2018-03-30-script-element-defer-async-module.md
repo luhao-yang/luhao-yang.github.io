@@ -5,8 +5,7 @@ title: "script element &#8211; defer, async, module"
 author: Luhao
 summary: just go over these basic knowledge
 layout: post
-#guid: http://flywithfan.net/?p=265
-#permalink: /javascript/265/
+
 categories:
   - Frontend
 tags:

@@ -5,8 +5,7 @@ title: Redux-thunk vs Redux saga
 author: Luhao
 summary: "A glimpse of Redux-thunk and Redux saga "
 layout: post
-#guid: http://flywithfan.net/?p=204
-#permalink: /javascript/204/
+
 categories:
   - Frontend
 tags:

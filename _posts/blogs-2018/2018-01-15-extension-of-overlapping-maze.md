@@ -5,8 +5,7 @@ title: Extension of Overlapping Maze
 author: Luhao
 summary: "Some extended thoughts about my mini game - Overlapping Maze"
 layout: post
-#guid: http://flywithfan.net/?p=168
-#permalink: /javascript/168/
+
 categories:
   - Misc
 tags:

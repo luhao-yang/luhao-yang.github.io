@@ -5,8 +5,7 @@ title: "Spring Boot (1) &#8211; Trial"
 author: Luhao
 summary: "Spring boot first trial... Let's go"
 layout: post
-#guid: http://flywithfan.net/?p=220
-#permalink: /web/220/
+
 categories:
   - Backend
 tags:

@@ -5,8 +5,7 @@ title: Something about travelling
 author: Fan
 summary: Mr.L and I have some thoughts to share.
 layout: post
-#guid: http://flywithfan.net/?p=81
-#permalink: /life/81/
+
 categories:
   - Life
 ---

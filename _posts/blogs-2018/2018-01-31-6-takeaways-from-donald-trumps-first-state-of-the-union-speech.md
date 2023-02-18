@@ -5,8 +5,7 @@ title: "6 takeaways from Donald Trump&#8217;s first State of the Union speech"
 author: Luhao
 summary: "I just read an article of trump's state of union, just for keeping up with latest politic news and learning English"
 layout: post
-#guid: http://flywithfan.net/?p=184
-#permalink: /english/184/
+
 categories:
   - Misc
 tags:

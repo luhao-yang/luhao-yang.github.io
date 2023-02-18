@@ -5,8 +5,7 @@ title: Common security settings of system
 author: Luhao
 summary: "Since I have been hacked by someone, I started to pay more attention on the security settings of system."
 layout: post
-#guid: http://45.33.40.211/?p=3
-#permalink: /misc/3/
+
 categories:
   - Security
 tags:

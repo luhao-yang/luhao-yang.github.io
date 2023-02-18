@@ -5,8 +5,7 @@ title: Nine ways of cross-origin communication
 author: Luhao
 summary: "I found an article which comprehensively introduced some tricky ways of communication cross origin, and I think it's very useful so I would translate it to you."
 layout: post
-#guid: http://flywithfan.net/?p=194
-#permalink: /javascript/194/
+
 categories:
   - Frontend
 tags:

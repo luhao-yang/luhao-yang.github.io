@@ -52,7 +52,7 @@ npx gulp
 
 ### maintainence
 
-run this command once for a while just to keep the depedencies up to date
+run this command once for a while just to keep the dependencies up to date
 
 ```bash
 bundle update github-pages

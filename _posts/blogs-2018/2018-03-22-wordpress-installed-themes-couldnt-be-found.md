@@ -5,8 +5,7 @@ title: "WordPress installed themes couldn&#8217;t be found"
 author: Luhao
 summary: "Wordpress installed themes couldn't be found!  Easy to solve, check here."
 layout: post
-#guid: http://flywithfan.net/?p=208
-#permalink: /misc/208/
+
 categories:
   - Misc
 tags:

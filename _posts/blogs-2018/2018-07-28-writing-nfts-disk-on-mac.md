@@ -5,8 +5,7 @@ title: Writing NFTS disk on MAC
 author: Luhao
 summary: Normally, you can only process reading instead of writing on the pluggable disk of NTFS format when you insert it into your mac.
 layout: post
-#guid: http://flywithfan.net/?p=331
-#permalink: /misc/331/
+
 categories:
   - Misc
 tags:

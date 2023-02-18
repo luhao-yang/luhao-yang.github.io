@@ -5,8 +5,7 @@ title: HTML5 drag and drop
 author: Luhao
 summary: HTML5 drag and drop introduction and example
 layout: post
-#guid: http://flywithfan.net/?p=192
-#permalink: /web/192/
+
 categories:
   - Frontend
 tags:

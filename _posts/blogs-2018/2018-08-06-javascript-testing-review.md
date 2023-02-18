@@ -4,8 +4,7 @@ title: JavaScript Testing Review
 #date: 2018-08-06T11:33:38+00:00
 author: Luhao
 layout: post
-#guid: http://flywithfan.net/?p=375
-#permalink: /javascript/375/
+
 image: /wp-content/uploads/2018/08/1_xZURv-fdC3H8Lv7p6vd1Qw-150x150.jpeg
 categories:
   - Testing

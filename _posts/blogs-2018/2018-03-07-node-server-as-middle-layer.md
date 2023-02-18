@@ -5,8 +5,7 @@ title: Node Server as middle layer
 author: Luhao
 summary: "Many big technology companies place Node.js web servers in front of real API's backend at the moment, Why?"
 layout: post
-#guid: http://flywithfan.net/?p=198
-#permalink: /architecture/198/
+
 categories:
   - Design
 tag:

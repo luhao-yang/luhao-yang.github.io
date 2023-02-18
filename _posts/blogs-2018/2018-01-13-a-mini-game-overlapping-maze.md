@@ -5,8 +5,7 @@ title: "A mini game: Overlapping Maze"
 author: Luhao
 summary: "Last week, I saw a TV show named 最强大脑, which means The Smartest Brain in English.During the showtime, I was deeply attracted by a game called 层叠消融. "
 layout: post
-#guid: http://flywithfan.net/?p=167
-#permalink: /javascript/167/
+
 categories:
   - Misc
 tags:

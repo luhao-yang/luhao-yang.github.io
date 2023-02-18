@@ -5,8 +5,7 @@ title: "ES6 &#8211; Destructuring"
 author: Luhao
 summary: The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
 layout: post
-#guid: http://flywithfan.net/?p=157
-#permalink: /javascript/157/
+
 categories:
   - Frontend
 tags:

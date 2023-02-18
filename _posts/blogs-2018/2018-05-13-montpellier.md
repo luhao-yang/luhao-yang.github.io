@@ -5,8 +5,7 @@ title: 蒙彼利埃 Montpellier
 author: Luhao
 summary: 欧洲之行-法国
 layout: post
-#guid: http://flywithfan.net/?p=313
-#permalink: /life/313/
+
 categories:
   - Life
 tags:

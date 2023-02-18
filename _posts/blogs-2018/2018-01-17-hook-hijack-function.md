@@ -5,8 +5,7 @@ title: Hook/Hijack Function
 author: Luhao
 summary: "Hook or hijack functions. It's like AOP programming, LOL..."
 layout: post
-#guid: http://flywithfan.net/?p=170
-#permalink: /javascript/170/
+
 categories:
   - Frontend
 tags:

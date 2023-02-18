@@ -40,6 +40,11 @@ disqus:
 
 service_worker: false
 
+# https://jekyllrb.com/docs/pagination/
+pagination: 5
+paginate_path: "/blog/page:num/"
+
+
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge # or pygments or null
@@ -54,9 +59,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  - npm-debug.log
   - gulpfile.js
-  - sleek.jpg
 
 include: ['_pages']
 permalink: /:title

@@ -5,8 +5,7 @@ title: Comparisons and comments on three English podcasts. An extension to previ
 author: Fan
 summary: "Some comments from me following Mr.L's post."
 layout: post
-#guid: http://flywithfan.net/?p=65
-#permalink: /english/65/
+
 categories:
   - Misc
 tags:

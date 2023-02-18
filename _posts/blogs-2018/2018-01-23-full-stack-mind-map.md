@@ -5,8 +5,7 @@ title: Full Stack Mind Map
 author: Luhao
 summary: A mind map of what should a full-stack programmer learn from my own perspective, or just say, what I expect myself to learn.
 layout: post
-#guid: http://flywithfan.net/?p=171
-#permalink: /web/171/
+
 categories:
   - Misc
 tags:

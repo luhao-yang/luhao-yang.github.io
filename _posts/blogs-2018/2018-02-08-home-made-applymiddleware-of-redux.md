@@ -5,8 +5,7 @@ title: My applyMiddleware of redux
 author: Luhao
 summary: After reading the Async Actions and Middleware chapters of redux tutorial, I implemented my own middleware thunk...
 layout: post
-#guid: http://flywithfan.net/?p=189
-#permalink: /javascript/189/
+
 categories:
   - Frontend
 tags:

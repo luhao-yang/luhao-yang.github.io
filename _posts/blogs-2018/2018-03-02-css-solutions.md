@@ -5,8 +5,7 @@ title: CSS solutions
 author: Luhao
 summary: Confronting with a bunch of CSS solutions, what should beginners to chose?
 layout: post
-#guid: http://flywithfan.net/?p=195
-#permalink: /web/195/
+
 categories:
   - Frontend
 tags:

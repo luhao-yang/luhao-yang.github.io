@@ -4,8 +4,7 @@ title: Decorator
 #date: 2018-08-12T11:04:05+00:00
 author: Luhao
 layout: post
-#guid: http://flywithfan.net/?p=381
-#permalink: /javascript/381/
+
 categories:
   - Frontend
 tags:

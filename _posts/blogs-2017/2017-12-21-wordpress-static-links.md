@@ -5,8 +5,7 @@ title: WordPress static links based on Nginx
 author: Luhao
 summary: Get rid of default links of Wordpress, replace them with elegant and reader-friendly linking formats, based on Nginx.
 layout: post
-#guid: http://flywithfan.net/?p=64
-#permalink: /architecture/64/
+
 categories:
   - Misc
 tags:

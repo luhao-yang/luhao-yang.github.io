@@ -4,8 +4,7 @@ title: "Spring Boot (2) &#8211; Configuration"
 #date: 2018-03-27T17:57:11+00:00
 author: Luhao
 layout: post
-#guid: http://flywithfan.net/?p=241
-#permalink: /java/241/
+
 categories:
   - Backend
 tags:

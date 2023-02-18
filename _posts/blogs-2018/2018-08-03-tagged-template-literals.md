@@ -4,8 +4,7 @@ title: Tagged Template Literals
 #date: 2018-08-03T17:07:11+00:00
 author: Luhao
 layout: post
-#guid: http://flywithfan.net/?p=366
-#permalink: /javascript/366/
+
 categories:
   - Frontend
 tags:

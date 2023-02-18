@@ -5,8 +5,7 @@ title: Resources of Vue and React
 author: Luhao
 summary: Resources of Vue and React
 layout: post
-#guid: http://flywithfan.net/?p=175
-#permalink: /javascript/175/
+
 categories:
   - Frontend
 tags:

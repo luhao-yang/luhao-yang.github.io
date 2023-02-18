@@ -4,8 +4,7 @@ title: Markdown Test
 #date: 2018-03-23T17:42:36+00:00
 author: Luhao
 layout: post
-#guid: http://flywithfan.net/?p=234
-#permalink: /misc/234/
+
 categories:
   - Misc
 tags:

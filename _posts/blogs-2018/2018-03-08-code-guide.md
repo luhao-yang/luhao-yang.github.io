@@ -5,8 +5,7 @@ title: Code Guide
 author: Luhao
 summary: Standards for developing flexible, durable, and sustainable HTML and CSS.
 layout: post
-#guid: http://flywithfan.net/?p=202
-#permalink: /misc/202/
+
 categories:
   - Misc
 tags:

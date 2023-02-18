@@ -5,8 +5,7 @@ title: Re-discuss about generator and async/await
 author: Luhao
 summary: A further discussion about generator and async programming
 layout: post
-#guid: http://flywithfan.net/?p=191
-#permalink: /javascript/191/
+
 categories:
   - Frontend
 tags:

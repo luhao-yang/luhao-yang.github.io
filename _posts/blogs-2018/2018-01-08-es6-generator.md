@@ -5,8 +5,7 @@ title: "ES6 &#8211; Generator"
 author: Luhao
 summary: The Generator object is returned by a generator function and it conforms to both the iterable protocol and the iterator protocol
 layout: post
-#guid: http://flywithfan.net/?p=163
-#permalink: /javascript/163/
+
 categories:
   - Frontend
 tags:

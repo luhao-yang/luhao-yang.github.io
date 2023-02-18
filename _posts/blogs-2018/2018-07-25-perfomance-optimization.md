@@ -5,8 +5,7 @@ title: Perfomance Optimization for Frontend
 author: Luhao
 summary: Some techniques of optimising performance in web development
 layout: post
-#guid: http://flywithfan.net/?p=329
-#permalink: /web/329/
+
 categories:
   - Frontend
 tags:

@@ -5,8 +5,7 @@ title: A new start
 author: Luhao
 summary: "I haven't update my blog for a couple of months because I was too busy.There were too many things to handle in the past couple of months..."
 layout: post
-#guid: http://flywithfan.net/?p=299
-#permalink: /life/299/
+
 image: /wp-content/uploads/2018/07/lowerhutt-150x150.jpg
 categories:
   - Life

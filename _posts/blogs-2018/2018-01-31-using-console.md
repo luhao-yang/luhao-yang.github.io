@@ -5,8 +5,7 @@ title: Using Console
 author: Luhao
 summary: "For most of the time, we just use console.log(), it's time to pick up new things"
 layout: post
-#guid: http://flywithfan.net/?p=178
-#permalink: /misc/178/
+
 categories:
   - Frontend
 tags:

@@ -5,8 +5,7 @@ title: Differences between React and Vue
 author: Luhao
 summary: After learning React and Vue, I summarize some similarities and differences between them. To gain a better understanding of both two MVVM frameworks, I write these down to remind myself later and share them to you.
 layout: post
-#guid: http://flywithfan.net/?p=173
-#permalink: /javascript/173/
+
 categories:
   - Frontend
 tags:

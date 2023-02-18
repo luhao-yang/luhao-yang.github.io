@@ -5,8 +5,7 @@ title: Shadowsocks Proxy
 author: Luhao
 summary: This is a simple passage about configuring shadowsocks client and building up the corresponding proxy server
 layout: post
-#guid: http://flywithfan.net/?p=34
-#permalink: /misc/34/
+
 categories:
   - Misc
 tags:
