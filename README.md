@@ -29,6 +29,7 @@ long version: [https://docs.github.com/en/pages/setting-up-a-github-pages-site-w
 short version:
 
 ```bash
+budle install
 bundle exec jekyll serve
 ```
 
