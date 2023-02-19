@@ -1,3 +1,28 @@
-<nav class="pagination">
-  <a href="#" class="pagination__item">1</a>
-</nav>
+<link rel="stylesheet" href="/assets/css/pagination.css">
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a class="pagination__prev" href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+  {% else %}
+    <span class="pagination__prev">&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="pagination__item">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a class="pagination__item" href="{{ '/' | relative_url }}">{{ page }}</a>
+    {% else %}
+      <a class="pagination__item" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a class="pagination__next" href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+  {% else %}
+    <span class="pagination__next">Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+

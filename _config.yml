@@ -40,9 +40,32 @@ disqus:
 
 service_worker: false
 
+include: ['_pages']
+# permalink: /:title
+
+# https://cloudcannon.com/community/jekyll-cheat-sheet/
 # https://jekyllrb.com/docs/pagination/
-pagination: 5
-paginate_path: "/blog/page:num/"
+# https://github.com/jekyll/jekyll-paginate/issues/40
+paginate: 20
+#paginate_path: "/posts/page:num/"
+
+# tags and categories are not supported
+
+# https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md
+# pagination:
+#   enabled: true
+#   per_page: 3
+#   offset: 2
+#   permalink: '/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
+
+
+# https://talk.jekyllrb.com/t/paginate-v2-with-github-pages-confusion/6471/21
+
+
 
 
 # BUILD SETTINGS
@@ -61,12 +84,10 @@ exclude:
   - vendor
   - gulpfile.js
 
-include: ['_pages']
-permalink: /:title
 
 compress_html:
   clippings: all
 
 plugins:
   - github-pages
-  # - jemoji
+  # - jekyll-paginate-v2

@@ -1,0 +1,13 @@
+.pagination__prev {
+  margin-right: 10px;
+}
+
+.pagination__item {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+
+.pagination__next {
+  margin-left: 10px;
+}
