@@ -97,5 +97,12 @@ function processImages() {
     .pipe(dest("assets/img/posts_cover/generated"));
 }
 
+function copyImages() {
+  console.log("copyImages");
+  return src("assets/img/posts_cover/original/*.{png,jpg}")
+    .pipe(imagemin())
+    .pipe(dest("assets/img/posts_cover/generated"));
+}
+
 exports.processImages = processImages;
-exports.default = series(init, processImages);
+exports.default = series(init, processImages, copyImages);
