@@ -80,6 +80,24 @@ function resize() {
   });
 }
 
+function rename() {
+  return through2.obj(function (file, _, cb) {
+    const that = this;
+    const outputFile = `${file.dirname}/${file.stem}.jpg`; 
+    sharp(file.contents).clone().toBuffer().then(buffer => {
+      const vinylFile = new Vinyl({
+        cwd: file.cwd,
+        base: file.base,
+        path: outputFile,
+        contents: buffer,
+      });
+      that.push(vinylFile);
+      cb(null);
+      
+    });
+  })
+}
+
 function printInfo() {
   return through2.obj(function (file, _, cb) {
     console.log("printInfo for testing", file.path);
@@ -100,6 +118,7 @@ function processImages() {
 function copyImages() {
   console.log("copyImages");
   return src("assets/img/posts_cover/original/*.{png,jpg}")
+    .pipe(rename())
     .pipe(imagemin())
     .pipe(dest("assets/img/posts_cover/generated"));
 }
