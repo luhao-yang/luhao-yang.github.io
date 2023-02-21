@@ -22,11 +22,10 @@ It is conceptually similar to a thread, in the sense that it takes a block of co
 
 Lightweight, Built-in cancellation support, Fewer memory leak, etc...
 
-<p style="color: orange">**Note**: A coroutine is not bound to any particular thread. It may suspend its execution in one thread and resume in another one. </p>
 
 # Key functions
 
-## runBlocking
+### `runBlocking`
 
 `runBlocking` is also a coroutine builder that **bridges** the non-coroutine world of a regular fun main() and the code with coroutines inside of `runBlocking { ... }` curly braces. This is highlighted in an IDE by `this: CoroutineScope` hint right after the `runBlocking` opening curly brace.
 
@@ -44,7 +43,7 @@ suspend fun doWorld() {
 
 ```
 
-## lauch
+### `lauch`
 
 launch is a coroutine builder. It launches a new coroutine concurrently with the rest of the code, which continues to work independently.
 
@@ -70,7 +69,7 @@ job.join() // wait until child coroutine completes
 println("Done")
 ```
 
-## async
+### `async`
 
 `async` starts a new coroutine and returns a `Deferred` object. `Deferred` represents a concept known by other names such as `Future` or `Promise`. It stores a computation, but it defers the moment you get the final result; it promises the result sometime in the future.
 
@@ -99,7 +98,7 @@ suspend fun loadData(): Int {
 
 # More concepts
 
-## Scope builder
+### Scope builder
 
 Besides the built-in coroutine builders, you can declare your own scope using the coroutineScope builder which creates a coroutine scope and does not complete until all launched children complete.
 
@@ -113,11 +112,11 @@ suspend fun doWorld() = coroutineScope {  // this: CoroutineScope
 }
 ```
 
-## Global Scope
+### Global Scope
 
 you can also start a new coroutine from the global scope using `GlobalScope.async` or `GlobalScope.launch`. This will create a **top-level** "independent" coroutine.
 
-## Cancellation
+### Cancellation
 
 Coroutine cancellation is cooperative. A coroutine code has to cooperate to be cancellable. All the suspending functions in kotlinx.coroutines are cancellable. They check for cancellation of coroutine and throw CancellationException when cancelled.
 
@@ -142,7 +141,7 @@ job.cancelAndJoin() // cancels the job and waits for its completion
 println("main: Now I can quit.")
 ```
 
-## Coroutine context
+### Coroutine context
 
 The coroutine context is a set of various elements. The main elements are the `Job` and its `dispatcher`. The coroutine dispatcher can confine coroutine execution to a specific thread, dispatch it to a thread pool, or let it run unconfined.
 
@@ -163,7 +162,7 @@ launch(newSingleThreadContext("MyOwnThread")) { // will get its own new thread
 
 > The Dispatchers.Unconfined coroutine dispatcher starts a coroutine in the caller thread, but only until the first suspension point. After suspension it resumes the coroutine in the thread that is fully determined by the suspending function that was invoked.
 
-## Shared mutable state and concurrency
+### Shared mutable state and concurrency
 
 This topic is really important in the currency world so it's less prone to bugs if you understand it very well. Just gonna share the official link here for you to explore.
 https://kotlinlang.org/docs/shared-mutable-state-and-concurrency.html
