@@ -22,7 +22,6 @@ It is conceptually similar to a thread, in the sense that it takes a block of co
 
 Lightweight, Built-in cancellation support, Fewer memory leak, etc...
 
-
 # Key functions
 
 ### `runBlocking`
